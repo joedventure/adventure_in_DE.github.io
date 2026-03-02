@@ -1,107 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <style>
-        #map { height: 600px; width: 100%; background: #f8f9fa; border-radius: 12px; }
-        .nav-buttons { margin-bottom: 15px; display: flex; gap: 10px; }
-        .btn { padding: 8px 16px; border-radius: 6px; text-decoration: none; color: white; background: #333; font-size: 14px; }
-        .btn-home { background: #007bff; }
-        .btn-back { background: #6c757d; }
-        /* 懸停時的樣式 */
-        .leaflet-interactive:hover { cursor: pointer; }
-    </style>
-</head>
+    </head>
 <body>
-    <div style="max-width: 1100px; margin: 0 auto; padding: 20px;">
-        <div class="nav-buttons">
-            {% if page.url != "/" %}
-                <a href="{{ site.baseurl }}/" class="btn btn-home">🏠 返回全德地圖</a>
-            {% endif %}
-            
-            {% if page.layout == "post" %}
-                <a href="{{ site.baseurl }}/{{ page.state_id }}/" class="btn btn-back">⬅️ 返回 {{ page.state_name }} 列表</a>
-            {% endif %}
-        </div>
-
-        <h1>{{ page.title }}</h1>
-
-        {% if page.show_map != false %}
-            <div id="map"></div>
+    <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+        {% if page.url != "/" %}
+            <a href="{{ site.baseurl }}/" style="text-decoration:none;">🏠 返回全德地圖</a>
         {% endif %}
 
-        <div class="content" style="margin-top: 20px;">
-            {{ content }}
-        </div>
+        {% if page.url == "/" %}
+            <h1>{{ page.title }}</h1>
+            <div id="map" style="height: 600px;"></div>
+            <script>
+                // 這裡放原本首頁載入全德 16 邦的 fetch 邏輯...
+            </script>
+        {% endif %}
+
+        {{ content }}
     </div>
-
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-        const baseUrl = "{{ site.baseurl }}";
-        
-        // 只有在需要地圖的頁面才初始化
-        if (document.getElementById('map')) {
-            const map = L.map('map').setView([51.1657, 10.4515], 6);
-
-            {% if page.map_type == "germany" %}
-            // --- 首頁邏輯：邦區塊懸停變色 + 首府大頭針 ---
-            let geojson;
-
-            // 樣式設定
-            function style(feature) {
-                return { fillOpacity: 0.1, color: "#3388ff", weight: 2 };
-            }
-
-            // 懸停變色
-            function highlightFeature(e) {
-                var layer = e.target;
-                layer.setStyle({ weight: 5, color: '#666', fillOpacity: 0.5 });
-                layer.bringToFront();
-            }
-
-            // 移開還原
-            function resetHighlight(e) {
-                geojson.resetStyle(e.target);
-            }
-
-            fetch(`${baseUrl}/assets/germany_states.json`)
-                .then(res => res.json())
-                .then(data => {
-                    geojson = L.geoJSON(data, {
-                        style: style,
-                        onEachFeature: (feature, layer) => {
-                            layer.on({
-                                mouseover: highlightFeature,
-                                mouseout: resetHighlight,
-                                click: () => { window.location.href = `${baseUrl}/${feature.properties.id}/`; }
-                            });
-                            // 綁定簡單提示
-                            layer.bindTooltip(feature.properties.name);
-
-                            // 在各邦首府座標處加上大頭針 (座標需在 GeoJSON 的 properties 內提供)
-                            if (feature.properties.capital_lat) {
-                                L.marker([feature.properties.capital_lat, feature.properties.capital_lng])
-                                    .addTo(map)
-                                    .bindPopup(`<b>${feature.properties.name} 首府</b><br><a href="${baseUrl}/${feature.properties.id}/">點此進入該邦</a>`);
-                            }
-                        }
-                    }).addTo(map);
-                });
-
-            {% elsif page.map_type == "state" %}
-            // --- 邦頁面邏輯：顯示城市標記 ---
-            const cities = {{ page.cities | jsonify }};
-            cities.forEach(city => {
-                L.marker([city.lat, city.lng])
-                    .addTo(map)
-                    .bindPopup(`<b>${city.name}</b><br><a href="${baseUrl}${city.url}">查看景點介紹</a>`);
-            });
-            if (cities.length > 0) map.setView([cities[0].lat, cities[0].lng], 8);
-            {% endif %}
-        }
-    </script>
 </body>
 </html>
