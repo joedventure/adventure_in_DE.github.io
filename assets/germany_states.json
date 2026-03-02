@@ -7762,7 +7762,7 @@
       "type": "Feature",
       "properties": {
         "name": "Bayern",
-		"id": "bavaria",
+		"id": "bayern",
         "cartodb_id": 8,
         "created_at": "2013-11-30T06:05:29+0100",
         "updated_at": "2013-11-30T06:05:29+0100"
