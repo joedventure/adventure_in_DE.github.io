@@ -2,8 +2,8 @@ title: 德國旅遊互動地圖
 email: your-email@example.com
 description: >-
   探索德國 16 邦的在地景點與城市。
-baseurl: "/germany-travel" # 如果是個人主頁則留空 ""
-url: "https://adventure_in_DE.github.io"
+baseurl: "/adventure_in_DE" # 如果是個人主頁則留空 ""
+url: "https://joedventure.github.io"
 
 # permalink: /:categories/:title/
 markdown: kramdown
