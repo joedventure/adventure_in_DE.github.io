@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<style>
+    .post-header { margin-bottom: 30px; }
+    .state-badge { 
+        display: inline-block; 
+        background: #e9ecef; 
+        padding: 4px 12px; 
+        border-radius: 20px; 
+        font-size: 0.9em; 
+        color: #495057;
+        margin-bottom: 10px;
+    }
+    
+    /* 維基百科風格目錄小方格 */
+    .toc-box {
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 15px;
+        display: table; /* 根據內容寬度自動調整 */
+        min-width: 250px;
+        margin: 20px 0;
+        border-radius: 2px;
+        font-size: 0.95em;
+    }
+    .toc-title {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .toc-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .toc-list li { margin: 4px 0; }
+    .toc-list a { 
+        text-decoration: none; 
+        color: #0645ad; 
+    }
+    .toc-list a:hover { text-decoration: underline; }
+
+    /* 景點區塊樣式 */
+    .spot-section { margin-top: 50px; }
+    h2 { 
+        border-bottom: 1px solid #ccc; 
+        padding-bottom: 5px; 
+        margin-top: 40px;
+        color: #202122;
+    }
+</style>
+
+<div class="post-header">
+    {% if page.state_name %}
+    <span class="state-badge">📍 所在聯邦州：{{ page.state_name }}</span>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+</div>
+
+<div class="toc-box" id="toc-container" style="display: none;">
+    <div class="toc-title">目錄 [顯示]</div>
+    <ul class="toc-list" id="markdown-toc">
+        </ul>
+</div>
+
+<article class="post-content">
+    {{ content }}
+</article>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tocList = document.getElementById('markdown-toc');
+        const tocContainer = document.getElementById('toc-container');
+        // 抓取文章內所有的 h2 標籤 (即景點標題)
+        const headings = document.querySelectorAll('.post-content h2');
+        
+        if (headings.length > 0) {
+            tocContainer.style.display = 'table'; // 有景點才顯示目錄
+            headings.forEach((heading, index) => {
+                // 為每個 h2 設定 ID 以便錨點跳轉
+                const id = `spot-${index}`;
+                heading.setAttribute('id', id);
+                
+                // 建立目錄清單項
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `#${id}`;
+                a.textContent = (index + 1) + ". " + heading.textContent;
+                
+                li.appendChild(a);
+                tocList.appendChild(li);
+            });
+        }
+    });
+</script>
