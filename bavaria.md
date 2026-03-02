@@ -4,11 +4,11 @@ title: Bavaria (Bayern)
 map_type: state
 permalink: /bavaria/
 cities:
-  - name: "Munich (München)"
+  - name: "慕尼黑 (München)"
     lat: 48.1351
     lng: 11.5820
     url: "/bavaria/post_munich/"
-  - name: "Nuremberg (Nürnberg)"
+  - name: "紐倫堡 (Nürnberg)"
     lat: 49.4521
     lng: 11.0767
     url: "/bavaria/post_nuremberg/"
