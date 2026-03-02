@@ -2,63 +2,69 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        #map { height: 600px; width: 100%; background: #f8f9fa; border-radius: 8px; }
-        .home-btn { position: absolute; top: 10px; left: 50px; z-index: 1000; background: white; padding: 8px 12px; border-radius: 4px; text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
-        .ad-space { margin: 20px 0; background: #eee; text-align: center; padding: 10px; min-height: 90px; }
+        #map { height: 500px; width: 100%; background: #f0f0f0; border-radius: 8px; margin-bottom: 20px; }
+        .home-btn { display: inline-block; margin: 10px 0; padding: 8px 15px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; font-family: sans-serif; }
     </style>
 </head>
 <body>
-
-    <div style="position: relative;">
-        {% if page.url != "/" %}
-        <a href="{{ site.baseurl }}/" class="home-btn">🏠 返回德國地圖首頁</a>
+    <div class="container">
+        {% if page.url != "/" and page.url != "/index.html" %}
+            <a href="{{ site.baseurl }}/" class="home-btn">🏠 返回德國地圖首頁</a>
         {% endif %}
+
+        <h1>{{ page.title }}</h1>
+
         <div id="map"></div>
-    </div>
 
-    <div class="content">
-        {{ content }}
-    </div>
-
-    <div class="ad-space">
-        <p>廣告贊助商</p>
+        <div class="main-content">
+            {{ content }}
         </div>
+    </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
+        // 設定地圖中心（德國中心點）
         const map = L.map('map').setView([51.1657, 10.4515], 6);
         const baseUrl = "{{ site.baseurl }}";
 
-        // 1. 全德地圖模式 (GeoJSON 邦界點擊跳轉)
         {% if page.map_type == "germany" %}
+        // 首頁模式：載入全德 GeoJSON
         fetch(`${baseUrl}/assets/germany_states.json`)
-            .then(res => res.json())
+            .then(response => {
+                if (!response.ok) throw new Error('找不到 GeoJSON 檔案');
+                return response.json();
+            })
             .then(data => {
                 L.geoJSON(data, {
                     style: { color: "#3388ff", weight: 2, fillOpacity: 0.1 },
                     onEachFeature: (feature, layer) => {
                         layer.on('click', () => {
-                            // 假設 GeoJSON 內有 id 或 name 屬性對應 URL
+                            // 跳轉至該邦頁面，例如 /adventure_in_de/bavaria/
                             window.location.href = `${baseUrl}/${feature.properties.id}/`;
                         });
                         layer.bindTooltip(feature.properties.name);
                     }
                 }).addTo(map);
-            });
+            })
+            .catch(err => console.error('地圖載入失敗:', err));
 
-        // 2. 邦頁面模式 (顯示城市標籤)
         {% elsif page.map_type == "state" %}
+        // 邦頁面模式：標註城市點位
         const cities = {{ page.cities | jsonify }};
-        cities.forEach(city => {
-            L.marker([city.lat, city.lng])
-                .addTo(map)
-                .bindPopup(`<b>${city.name}</b><br><a href="${baseUrl}${city.url}">閱讀介紹文章</a>`);
-        });
-        // 自動聚焦到該邦中心 (此處簡化處理)
-        if (cities.length > 0) map.setView([cities[0].lat, cities[0].lng], 8);
+        if (cities) {
+            cities.forEach(city => {
+                L.marker([city.lat, city.lng])
+                    .addTo(map)
+                    .bindPopup(`<b>${city.name}</b><br><a href="${baseUrl}${city.url}">閱讀介紹</a>`);
+            });
+            // 視角自動縮放至第一個城市
+            if (cities.length > 0) map.setView([cities[0].lat, cities[0].lng], 8);
+        }
         {% endif %}
     </script>
 </body>
