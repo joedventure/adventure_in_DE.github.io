@@ -1,27 +1,23 @@
 ---
 layout: default
 ---
+<h1>{{ page.title }}</h1>
+<div id="map" style="height: 500px;"></div>
 
-<div class="state-container">
-    <h1>{{ page.title }}</h1>
-    
-    <div id="map" style="height: 500px; width: 100%; background: #f0f0f0; border-radius: 8px;"></div>
-
-    <div class="state-content" style="margin-top: 20px;">
-        {{ content }}
-    </div>
+<div class="main-content">
+    {{ content }}
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // 初始化地圖
-        const map = L.map('map');
+    // 確保 Leaflet 載入後才執行
+    window.addEventListener('load', function() {
+        const map = L.map('map').setView([51.1657, 10.4515], 6);
         const baseUrl = "{{ site.baseurl }}";
-        // 取得匹配 GeoJSON 用的名稱 (例如 "Bayern")
         const targetState = "{{ page.geojson_name }}";
 
-        // 1. 載入並過濾邊界
+        // 載入底圖（避免只有線條沒有背景）
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
         fetch(`${baseUrl}/assets/germany.geojson`)
             .then(res => res.json())
             .then(data => {
@@ -30,13 +26,11 @@ layout: default
                     style: { color: "#ff7800", weight: 3, fillOpacity: 0.1 }
                 }).addTo(map);
 
-                // 自動縮放至該邦
                 if (stateLayer.getBounds().isValid()) {
                     map.fitBounds(stateLayer.getBounds(), { padding: [30, 30] });
                 }
             });
 
-        // 2. 標註城市大頭針
         const cities = {{ page.cities | jsonify }};
         if (cities) {
             cities.forEach(city => {
