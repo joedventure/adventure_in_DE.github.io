@@ -7,11 +7,11 @@ cities:
   - name: "慕尼黑 (München)"
     lat: 48.1351
     lng: 11.5820
-    url: "/bavaria/post_muenchen/"
+    url: "/bayern/post_muenchen/"
   - name: "紐倫堡 (Nürnberg)"
     lat: 49.4521
     lng: 11.0767
-    url: "/bavaria/post_nuernberg/"
+    url: "/bayern/post_nuernberg/"
 ---
 
 ### 巴伐利亞熱門城市
