@@ -99,10 +99,10 @@
                     .then(data => {
                         // 2. 篩選出當前頁面的邦 (假設你的 GeoJSON 屬性名稱是 'name')
                         // 請根據你 GeoJSON 實際的 properties 欄位名稱修改 'name'
+                        const currentStateId = "{{ page.state_id }}"; // 取得邦頁面中的state_id
                         const stateLayer = L.geoJSON(data, {
                             filter: function(feature) {
-                                return feature.properties.name === "{{ page.title | split: ' ' | first }}"; 
-                                // 這裡用 page.title 的第一個詞（巴伐利亞）去比對
+                                return (feature.id === currentStateId || feature.properties.id === currentStateId);
                             },
                             style: {
                                 color: "#2c3e50",
