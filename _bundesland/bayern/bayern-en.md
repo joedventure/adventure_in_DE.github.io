@@ -7,11 +7,11 @@ permalink: /en/bayern/
 slug: bayern
 lang: en
 cities:
-  - name: "慕尼黑 (München)"
+  - name: "Munich (München)"
     lat: 48.1351
     lng: 11.5820
     url: "/bayern/muenchen/"
-  - name: "紐倫堡 (Nürnberg)"
+  - name: "Nuremberg (Nürnberg)"
     lat: 49.4521
     lng: 11.0767
     url: "/bayern/nuernberg/"
