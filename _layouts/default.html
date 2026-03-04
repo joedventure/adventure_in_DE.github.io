@@ -90,7 +90,7 @@
             padding: 0 15px;
             font-size: 14px;
             font-weight: 500;
-            border-radius: 25px; /* 改為圓角與導覽按鈕一致 */
+            border-radius: 25px; 
             text-decoration: none;
             background-color: #2c3e50; 
             color: #ffffff !important;
@@ -102,10 +102,9 @@
             transform: translateY(-1px);
         }
 
-        /* 圖示與文字的間距 */
         .icon-spacing {
             margin-right: 6px;
-            font-size: 1.1em; /* 讓 Emoji 稍微大一點點看起來更清楚 */
+            font-size: 1.1em; 
             line-height: 1;
         }
         
@@ -123,14 +122,13 @@
             font-size: 14px; 
             font-weight: 500;
             transition: opacity 0.2s;
-            line-height: 1;          /* 消除行高干擾，讓垂直置中更精準 */
+            line-height: 1;          
         }
         
         .btn-home { background: #2c3e50; }
         .btn-back { background: #2c3e50; }
         .btn:hover { opacity: 0.9; }
 
-        /* --- 訪客統計數字 --- */
         .visitor-stat { 
             font-family: "Courier New", Courier, monospace; 
             font-weight: bold; 
@@ -138,7 +136,6 @@
             font-size: 1.2rem; 
         }
 
-        /* --- 頁尾 --- */
         footer { 
             margin-top: 60px; 
             padding: 40px 20px; 
@@ -149,7 +146,6 @@
         }
         .footer-line { display: block; margin-bottom: 5px; }
 
-        /* 響應式：手機看時改為單欄 */
         @media (max-width: 900px) {
             .main-container { flex-direction: column; }
             .sidebar { order: 2; }
@@ -164,19 +160,11 @@
     <div class="main-container">
         <main class="content-area">
             <div class="nav-buttons">
-                {% comment %} 只要這頁的身分證不是 home，就顯示返回首頁按鈕 {% endcomment %}
                 {% if page.slug != "home" %}
-                    {% comment %} 設定首頁路徑變數 {% endcomment %}
-                    {% assign home_url = "/" %}
-                    {% if page.lang == "en" %}
-                        {% assign home_url = "/en/" %}
-                    {% elsif page.lang == "jp" %}
-                        {% assign home_url = "/jp/" %}
-                    {% endif %}
+                    {% comment %} 改進：更嚴謹的首頁路徑判斷 {% endcomment %}
+                    {% capture home_url %}/{% if page.lang == "en" %}en/{% elsif page.lang == "jp" %}jp/{% endif %}{% endcapture %}
 
                     <a href="{{ home_url | relative_url }}" class="btn btn-home">
-                        
-                        {% comment %} set language display of the button {% endcomment %}
                         {% if page.lang == "en" %} 🏠 Return to Germany Map
                         {% elsif page.lang == "jp" %} 🏠 全ドイツ地圖へ
                         {% else %} 🏠 返回全德地圖
@@ -185,17 +173,16 @@
                 {% endif %}
                 
                 {% if page.layout == "post" %}
-                    {% comment %} 設定州列表路徑變數 {% endcomment %}
-                    {% assign state_url = "/" | append: page.state_id | append: "/" %}
-    
+                    {% comment %} 改進：邦列表路徑需包含語言前綴 {% endcomment %}
                     {% if page.lang == "en" %}
                         {% assign state_url = "/en/" | append: page.state_id | append: "/" %}
                     {% elsif page.lang == "jp" %}
                         {% assign state_url = "/jp/" | append: page.state_id | append: "/" %}
+                    {% else %}
+                        {% assign state_url = "/" | append: page.state_id | append: "/" %}
                     {% endif %}
 
                     <a href="{{ state_url | relative_url }}" class="btn btn-back">
-                        {% comment %} set language display of the button {% endcomment %}
                         {% if page.lang == "en" %} ⬅️ Back to {{ page.state_name }} List
                         {% elsif page.lang == "jp" %} ⬅️ {{ page.state_name }} 一覧へ
                         {% else %} ⬅️ 返回 {{ page.state_name }} 列表
@@ -235,77 +222,89 @@
         </main>
 
         <aside class="sidebar">
-            
+            {% comment %} 2- Side bar 語言相對應更新 {% endcomment %}
             <section class="sidebar-card">
-                <h3>🔍 探索專題</h3>
+                <h3>🔍 
+                    {% if page.lang == "en" %}Explore Topics{% elsif page.lang == "jp" %}トピック探索{% else %}探索專題{% endif %}
+                </h3>
                 <ul>
-                    <li><a href="#">🇩🇪 德國世界遺產全紀錄</a></li>
-                    <li><a href="#">🥨 巴伐利亞美食地圖</a></li>
-                    <li><a href="#">🏰 浪漫之路古堡巡禮</a></li>
-                    <li><a href="#">🚆 德鐵 DB 乘車教學</a></li>
+                    <li><a href="#">{% if page.lang == "en" %}🇩🇪 German World Heritage{% elsif page.lang == "jp" %}🇩🇪 ドイツ世界遺産{% else %}🇩🇪 德國世界遺產全紀錄{% endif %}</a></li>
+                    <li><a href="#">{% if page.lang == "en" %}🥨 Bavarian Food Map{% elsif page.lang == "jp" %}🥨 バイエルングルメ{% else %}🥨 巴伐利亞美食地圖{% endif %}</a></li>
+                    <li><a href="#">{% if page.lang == "en" %}🏰 Romantic Road Tour{% elsif page.lang == "jp" %}🏰 ロマンチック街道{% else %}🏰 浪漫之路古堡巡禮{% endif %}</a></li>
+                    <li><a href="#">{% if page.lang == "en" %}🚆 DB Guide{% elsif page.lang == "jp" %}🚆 德鉄 DB 教本{% else %}🚆 德鐵 DB 乘車教學{% endif %}</a></li>
                 </ul>
             </section>
             
             <section class="sidebar-card">
-                <h3>📱 Joe的聯絡方式</h3>
+                <h3>📱 
+                    {% if page.lang == "en" %}Contact Joe{% elsif page.lang == "jp" %}Joeの連絡先{% else %}Joe的聯絡方式{% endif %}
+                </h3>
                 <ul class="social-links">
-                    <li><a href="https://www.facebook.com/people/%E7%95%99%E5%BE%B7%E8%8F%AFJoe/61564955070082/" target="_blank">📘 Facebook 專頁</a></li>
-                    <li><a href="https://www.instagram.com/adventure_in_de/" target="_blank">📸 Instagram 攝影集</a></li>
-                    <li><a href="https://www.threads.com/@adventure_in_de" target="_blank">🧵 Threads 碎碎念</a></li>
-                    <li><a href="https://docs.google.com/forms/d/1edkoesgg31u03yiSkV6ztG-ICXmCEXX_CMJOhqyBjFA/viewform?edit_requested=true" target="_blank">📨 Google表單聯絡Joe</a></li>
-                    <li><a href="https://ko-fi.com/adventure_in_de" target="_blank">☕ 請Joe喝杯咖啡!</a></li>
+                    <li><a href="https://www.facebook.com/people/%E7%95%99%E5%BE%B7%E8%8F%AFJoe/61564955070082/" target="_blank">📘 Facebook</a></li>
+                    <li><a href="https://www.instagram.com/adventure_in_de/" target="_blank">📸 Instagram</a></li>
+                    <li><a href="https://www.threads.com/@adventure_in_de" target="_blank">🧵 Threads</a></li>
+                    <li><a href="https://docs.google.com/forms/d/1edkoesgg31u03yiSkV6ztG-ICXmCEXX_CMJOhqyBjFA/viewform?edit_requested=true" target="_blank">📨 {% if page.lang == "en" %}Contact via Form{% elsif page.lang == "jp" %}フォームで連絡{% else %}Google表單聯絡Joe{% endif %}</a></li>
+                    <li><a href="https://ko-fi.com/adventure_in_de" target="_blank">☕ {% if page.lang == "en" %}Buy Joe a Coffee{% elsif page.lang == "jp" %}Joeにコーヒーを奢る{% else %}請Joe喝杯咖啡!{% endif %}</a></li>
                 </ul>
             </section>
 
             <section class="sidebar-card">
-                <h3>🕵️🧭 關於Joe</h3>
-                <p style="font-size: 14px; margin-bottom: 5px;">旅居德國的(閒)人<br>擅長打字、分享歷史故事</p>
+                <h3>🕵️🧭 
+                    {% if page.lang == "en" %}About Joe{% elsif page.lang == "jp" %}Joeについて{% else %}關於Joe{% endif %}
+                </h3>
+                <p style="font-size: 14px; margin-bottom: 5px;">
+                    {% if page.lang == "en" %}Living in Germany. Love history and typing.{% elsif page.lang == "jp" %}ドイツ在住。歴史の話やタイピングが得意。{% else %}旅居德國的(閒)人<br>擅長打字、分享歷史故事{% endif %}
+                </p>
             </section>
             
             <section class="sidebar-card">
-                <h3>📈 網站統計</h3>
-                <p style="font-size: 14px; margin-bottom: 5px;">總訪客人數：</p>
+                <h3>📈 
+                    {% if page.lang == "en" %}Statistics{% elsif page.lang == "jp" %}統計{% else %}網站統計{% endif %}
+                </h3>
+                <p style="font-size: 14px; margin-bottom: 5px;">{% if page.lang == "en" %}Total Visitors:{% elsif page.lang == "jp" %}累計訪問者数：{% else %}總訪客人數：{% endif %}</p>
                 <span class="visitor-stat" id="busuanzi_value_site_pv">--</span>
             </section>
         </aside>
     </div>
 
     <footer>
-        <i class="footer-line">Copyright © {{ "now" | date: "%Y" }} Adventure_in_de. All Rights Reserved. All contents — including but not limited to text, images, design, code, and multimedia — are protected under international copyright treaties. Unauthorized reproduction, modification, distribution, public transmission, or commercial use is strictly prohibited. Legal action will be taken against infringement.</i>
-        <i class="footer-line">Copyright © {{ "now" | date: "%Y" }} Adventure_in_de。保留所有權利。本專案所有內容（包括但不限於文字、圖片、設計、程式碼及多媒體素材）均受國際著作權法保護。未經授權，嚴禁任何形式之轉載、修改、散佈、公開傳輸或商業使用，違者必究。</i>
+        <i class="footer-line">Copyright © {{ "now" | date: "%Y" }} Adventure_in_de. All Rights Reserved.</i>
+        <i class="footer-line">Copyright © {{ "now" | date: "%Y" }} Adventure_in_de。保留所有權利。</i>
     </footer>
 
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         const baseUrl = "{{ site.baseurl }}";
+        const currentLang = "{{ page.lang }}";
+
+        // 1- 建立輔助函式確保 JS 跳轉路徑包含語言前綴
+        function getLangPath(path) {
+            let langPrefix = "";
+            if (currentLang === "en") langPrefix = "/en";
+            else if (currentLang === "jp") langPrefix = "/jp";
+            
+            // 確保路徑拼接不會出現雙斜線
+            const fullPath = `${baseUrl}${langPrefix}${path}`;
+            return fullPath.replace(/\/+/g, '/');
+        }
         
         if (document.getElementById('map')) {
             const map = L.map('map').setView([51.1657, 10.4515], 6);
 
-            // --- 注入 OpenStreetMap 底圖 ---
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
             {% if page.map_type == "germany" %}
-            // --- 首頁邏輯：邦區塊懸停變色 + 首府大頭針 ---
             let geojson;
-
-            function style(feature) {
-                return { fillOpacity: 0.1, color: "#3498db", weight: 2 };
-            }
-
+            function style(feature) { return { fillOpacity: 0.1, color: "#3498db", weight: 2 }; }
             function highlightFeature(e) {
                 var layer = e.target;
                 layer.setStyle({ weight: 5, color: '#2c3e50', fillOpacity: 0.4 });
                 layer.bringToFront();
             }
-
-            function resetHighlight(e) {
-                geojson.resetStyle(e.target);
-            }
+            function resetHighlight(e) { geojson.resetStyle(e.target); }
 
             fetch(`${baseUrl}/assets/germany_states.json`)
                 .then(res => res.json())
@@ -316,47 +315,38 @@
                             layer.on({
                                 mouseover: highlightFeature,
                                 mouseout: resetHighlight,
-                                click: () => { window.location.href = `${baseUrl}/${feature.properties.id}/`; }
+                                // 修正點擊跳轉
+                                click: () => { window.location.href = getLangPath(`/${feature.properties.id}/`); }
                             });
                             layer.bindTooltip(feature.properties.name);
 
                             if (feature.properties.capital_lat) {
                                 L.marker([feature.properties.capital_lat, feature.properties.capital_lng])
                                     .addTo(map)
-                                    .bindPopup(`<b>${feature.properties.name} 首府</b><br><a href="${baseUrl}/${feature.properties.id}/">點此進入該邦</a>`);
+                                    .bindPopup(`<b>${feature.properties.name}</b><br><a href="${getLangPath('/' + feature.properties.id + '/')}">Link</a>`);
                             }
                         }
                     }).addTo(map);
                 });
 
             {% elsif page.map_type == "state" %}
-            // --- 邦頁面邏輯：顯示邦輪廓與城市標記 ---
             fetch(`${baseUrl}/assets/germany_states.json`)
                 .then(res => res.json())
                 .then(data => {
                     const currentStateId = "{{ page.state_id }}";
                     const stateLayer = L.geoJSON(data, {
-                        filter: function(feature) {
-                            return (feature.id === currentStateId || feature.properties.id === currentStateId);
-                        },
-                        style: {
-                            color: "#2c3e50",
-                            weight: 3,
-                            fillColor: "#3498db",
-                            fillOpacity: 0.1
-                        }
+                        filter: (feature) => (feature.id === currentStateId || feature.properties.id === currentStateId),
+                        style: { color: "#2c3e50", weight: 3, fillColor: "#3498db", fillOpacity: 0.1 }
                     }).addTo(map);
-                    
-                    if (stateLayer.getLayers().length > 0) {
-                        map.fitBounds(stateLayer.getBounds(), { padding: [30, 30] });
-                    }
+                    if (stateLayer.getLayers().length > 0) map.fitBounds(stateLayer.getBounds(), { padding: [30, 30] });
                 });
 
             const cities = {{ page.cities | jsonify }};
             cities.forEach(city => {
                 L.marker([city.lat, city.lng])
                     .addTo(map)
-                    .bindPopup(`<b>${city.name}</b><br><a href="${baseUrl}${city.url}">查看景點介紹</a>`);
+                    // 修正景點點擊跳轉
+                    .bindPopup(`<b>${city.name}</b><br><a href="${getLangPath(city.url)}">Detail</a>`);
             });
             {% endif %}
         }
