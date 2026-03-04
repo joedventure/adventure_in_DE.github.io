@@ -22,7 +22,7 @@ cities:
 
 <div class="quick-access">
     <h3 style="margin-top: 0; font-size: 1.2rem; border-left: 4px solid #3498db; padding-left: 10px; border-bottom: none;">
-        📍 城市快速存取
+        🚩 城市探險傳送門
     </h3>
     <div class="city-grid">
         {% for city in page.cities %}
