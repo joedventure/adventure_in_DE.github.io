@@ -55,9 +55,9 @@ layout: default
     {% if page.state_name %}
     <span class="state-badge">
         {% if page.lang == "en" %}
-            📍 State: {{ page.state_name }}
+            📍 You are in: {{ page.state_name }}
         {% elsif page.lang == "jp" %}
-            📍 連邦州：{{ page.state_name }}
+            📍 現在地：{{ page.state_name }}
         {% else %}
             📍 所在聯邦州：{{ page.state_name }}
         {% endif %}
