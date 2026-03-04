@@ -18,11 +18,11 @@ cities:
 ---
 
 ## 巴伐利亞探索地圖
-點擊地圖上的圖釘，查看更深入的介紹。
+點擊地圖上的圖釘，查看更深入的介紹。或是...
 
 <div class="quick-access">
     <h3 style="margin-top: 0; font-size: 1.2rem; border-left: 4px solid #3498db; padding-left: 10px; border-bottom: none;">
-        🚩 城市探險傳送門
+        🚅 搭乘城市直達列車，絕對比德鐵更快！
     </h3>
     <div class="city-grid">
         {% for city in page.cities %}
