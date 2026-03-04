@@ -3,7 +3,9 @@ layout: default
 title: 巴伐利亞 (Bayern)
 map_type: state
 state_id: bayern
-permalink: /bayern/
+permalink: /en/bayern/
+slug: bayern
+lang: en
 cities:
   - name: "慕尼黑 (München)"
     lat: 48.1351
@@ -15,5 +17,5 @@ cities:
     url: "/bayern/nuernberg/"
 ---
 
-### Bayern english site
+### Bayern in English
 點擊地圖上的大頭針，查看更深入的景點解析。
