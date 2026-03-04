@@ -81,6 +81,37 @@
         }
         .sidebar-card a:hover { color: #1a5a96; text-decoration: underline; }
 
+        /* 語言切換按鈕專屬樣式 */
+        .btn-lang {
+            display: inline-flex;
+            align-items: center;
+            height: 38px;
+            padding: 0 15px;
+            font-size: 0.9em;
+            font-weight: 500;
+            border-radius: 6px;
+            text-decoration: none;
+            border: none;
+            /* 這裡可以自定義你喜歡的顏色 */
+            background-color: #2c3e50; 
+            color: #ffffff !important; /* 強制白色文字 */
+            transition: background-color 0.2s ease, transform 0.1s;
+            cursor: pointer;
+        }
+
+        .btn-lang:hover {
+            background-color: #2d3748; /* 懸停時顏色加深 */
+            transform: translateY(-1px); /* 輕微浮動效果 */
+        }
+
+        /* 國旗圖片處理 */
+        .flag-img {
+            width: 20px;
+            margin-right: 8px;
+            border-radius: 2px;
+            display: block;
+        }
+        
         /* --- 導覽按鈕 --- */
         .nav-buttons { margin-bottom: 20px; display: flex; gap: 10px; }
         .btn { 
@@ -93,7 +124,7 @@
             transition: opacity 0.2s;
         }
         .btn-home { background: #2c3e50; }
-        .btn-back { background: #7f8c8d; }
+        .btn-back { background: #2c3e50; }
         .btn:hover { opacity: 0.9; }
 
         /* --- 訪客統計數字 --- */
