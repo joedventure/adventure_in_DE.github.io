@@ -17,5 +17,5 @@ cities:
     url: "/bayern/nuernberg/"
 ---
 
-### Bayern in Japanese
+### Bayern in English
 點擊地圖上的大頭針，查看更深入的景點解析。
