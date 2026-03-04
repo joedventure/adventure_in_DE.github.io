@@ -173,8 +173,9 @@
                     {% elsif page.lang == "jp" %}
                         {% assign home_url = "/jp/" %}
                     {% endif %}
-                
-                    <a href="{{ site.baseurl }}/" class="btn btn-home">
+
+                    <a href="{{ home_url | relative_url }}" class="btn btn-home">
+                        
                         {% comment %} set language display of the button {% endcomment %}
                         {% if page.lang == "en" %} 🏠 Return to Germany Map
                         {% elsif page.lang == "jp" %} 🏠 全ドイツ地圖へ
@@ -192,8 +193,8 @@
                     {% elsif page.lang == "jp" %}
                         {% assign state_url = "/jp/" | append: page.state_id | append: "/" %}
                     {% endif %}
-                
-                    <a href="{{ site.baseurl }}/{{ page.state_id }}/" class="btn btn-back">
+
+                    <a href="{{ state_url | relative_url }}/{{ page.state_id }}/" class="btn btn-back">
                         {% comment %} set language display of the button {% endcomment %}
                         {% if page.lang == "en" %} ⬅️ Back to {{ page.state_name }} List
                         {% elsif page.lang == "jp" %} ⬅️ {{ page.state_name }} 一覧へ
