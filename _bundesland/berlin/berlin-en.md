@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 柏林 (Berlin)
+title: Berlin (Berlin)
 map_type: state
 state_id: berlin
 permalink: /en/berlin/
 slug: berlin
 lang: en
 cities:
-  - name: "柏林 (Berlin)"
+  - name: "Berlin (Berlin)"
     lat: 52.52  
     lng: 13.405
     url: "/berlin/berlin-city/"
