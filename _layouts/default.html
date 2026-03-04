@@ -147,7 +147,14 @@
         .footer-line { display: block; margin-bottom: 5px; }
 
         /* --- 手機版導覽按鈕優化 --- */
-        @media (max-width: 600px) {
+        @media (max-width: 900px) {
+            /* 1. 讓佈局變垂直，側邊欄自動掉到下方 */
+            .main-container { flex-direction: column; }
+            .sidebar { order: 2; }
+
+            /* 2. 修正地圖高度 */
+            #map { height: 400px; }
+    
             .nav-buttons {
                 flex-wrap: wrap; /* 允許按鈕自動換行，避免擠壓 */
                 gap: 8px;
@@ -162,9 +169,7 @@
             }      
 
             /* 如果有三個按鈕，讓語言切換按鈕在手機上可以更明顯 */
-            .btn-lang {
-                justify-content: center;
-            }
+            .btn-lang { justify-content: center; }
         }
 
         .leaflet-interactive:hover { cursor: pointer; }
