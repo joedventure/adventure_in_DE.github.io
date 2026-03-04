@@ -66,9 +66,18 @@ layout: default
 </div>
 
 <div class="toc-box" id="toc-container" style="display: none;">
-    <div class="toc-title">目錄 [顯示]</div>
+    <div class="toc-title">
+        {% if page.lang == "en" %}
+            Table of Contents [<span id="toc-toggle">Show</span>]
+        {% elsif page.lang == "jp" %}
+            目次 [<span id="toc-toggle">表示</span>]
+        {% else %}
+            目錄 [<span id="toc-toggle">顯示</span>]
+        {% endif %}
+    </div>
     <ul class="toc-list" id="markdown-toc">
-        </ul>
+        {% comment %} 目錄內容由 JavaScript 或 kramdown 自動生成 {% endcomment %}
+    </ul>
 </div>
 
 <article class="post-content">
