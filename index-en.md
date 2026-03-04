@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The Definitive Guide to German Towns: History and Sights"
+title: The Ultimate Guide to German Town History and Sights
 map_type: germany
 slug: home
 lang: en
