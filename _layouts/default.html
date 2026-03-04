@@ -137,6 +137,25 @@
                 {% if page.layout == "post" %}
                     <a href="{{ site.baseurl }}/{{ page.state_id }}/" class="btn btn-back">⬅️ 返回 {{ page.state_name }} 列表</a>
                 {% endif %}
+
+                {% if page.slug %}
+                    {% assign all_docs = site.documents | concat: site.pages %}
+                    {% assign siblings = all_docs | where: "slug", page.slug %}
+                
+                    {% for sibling in siblings %}
+                        {% if sibling.lang != page.lang %}
+                            <a href="{{ sibling.url | relative_url }}" class="btn btn-lang">
+                                {% if sibling.lang == "zh" %}
+                                    <img src="https://flagcdn.com/w20/tw.png" width="20" style="margin-right:5px; vertical-align:middle;"> 中文
+                                {% elsif sibling.lang == "en" %}
+                                    <img src="https://flagcdn.com/w20/us.png" width="20" style="margin-right:5px; vertical-align:middle;"> EN
+                                {% elsif sibling.lang == "jp" %}
+                                    <img src="https://flagcdn.com/w20/jp.png" width="20" style="margin-right:5px; vertical-align:middle;"> JP
+                                {% endif %}
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
             </div>
 
             <h1>{{ page.title }}</h1>
