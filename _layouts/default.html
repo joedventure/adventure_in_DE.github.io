@@ -152,6 +152,27 @@
 
         <aside class="sidebar">
             <section class="sidebar-card">
+                <nav class="language-switcher">
+                    {% comment %} 
+                    搜尋範圍改為 site.documents，這能同時抓到 _bundesland 和 _posts 
+                    {% endcomment %}
+                    {% assign all_pages = site.documents %}
+                    {% assign siblings = all_pages | where: "slug", page.slug %}
+                    
+                    {% for sibling in siblings %}
+                    {% if sibling.lang != page.lang %}
+                    <a href="{{ site.baseurl }}{{ sibling.url }}" class="lang-btn">
+                        {% if sibling.lang == "zh" %} 🇹🇼 中文
+                        {% elsif sibling.lang == "en" %} 🇺🇸 EN
+                        {% elsif sibling.lang == "de" %} 🇩🇪 DE
+                        {% endif %}
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </nav>
+            </section>
+            
+            <section class="sidebar-card">
                 <h3>🔍 探索專題</h3>
                 <ul>
                     <li><a href="#">🇩🇪 德國世界遺產全紀錄</a></li>
