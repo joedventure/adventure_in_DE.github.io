@@ -164,12 +164,23 @@
     <div class="main-container">
         <main class="content-area">
             <div class="nav-buttons">
-                {% if page.url != "/" %}
-                    <a href="{{ site.baseurl }}/" class="btn btn-home">🏠 返回全德地圖</a>
+                {% comment %} 只要這頁的身分證不是 home，就顯示返回首頁按鈕 {% endcomment %}
+                {% if page.slug != "home" %}
+                    <a href="{{ site.baseurl }}/" class="btn btn-home">
+                        {% if page.lang == "en" %} 🏠 Return to Germany Map
+                        {% elsif page.lang == "jp" %} 🏠 全ドイツ地圖へ
+                        {% else %} 🏠 返回全德地圖
+                        {% endif %}
+                    </a>
                 {% endif %}
                 
                 {% if page.layout == "post" %}
-                    <a href="{{ site.baseurl }}/{{ page.state_id }}/" class="btn btn-back">⬅️ 返回 {{ page.state_name }} 列表</a>
+                    <a href="{{ site.baseurl }}/{{ page.state_id }}/" class="btn btn-back">
+                        {% if page.lang == "en" %} ⬅️ Back to {{ page.state_name }} List
+                        {% elsif page.lang == "jp" %} ⬅️ {{ page.state_name }} 一覧へ
+                        {% else %} ⬅️ 返回 {{ page.state_name }} 列表
+                        {% endif %}
+                    </a>
                 {% endif %}
 
                 {% if page.slug %}
