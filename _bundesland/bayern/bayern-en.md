@@ -26,7 +26,19 @@ Click the pins on the map above, and join me as we dive deep into the towns of B
     </h3>
     <div class="city-grid">
         {% for city in page.cities %}
-            <a href="{{ city.url | relative_url }}" class="city-link">
+            {% comment %} 根據語言判斷前綴 {% endcomment %}
+            {% if page.lang == "en" %}
+                {% assign lang_prefix = "/en" %}
+            {% elsif page.lang == "jp" %}
+                {% assign lang_prefix = "/jp" %}
+            {% else %}
+                {% assign lang_prefix = "" %}
+            {% endif %}
+            
+            {% comment %} 拼接完整路徑 {% endcomment %}
+            {% capture city_full_url %}{{ lang_prefix }}{{ city.url }}{% endcapture %}
+
+            <a href="{{ city_full_url | relative_url }}" class="city-link">
                 {{ city.name }}
             </a>
         {% endfor %}
