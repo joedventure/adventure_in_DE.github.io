@@ -394,6 +394,11 @@
                 }
             });
         }
+
+        // 點擊空白處關閉搜尋結果
+        document.addEventListener('click', e => {
+            if (searchInput && !searchInput.contains(e.target)) resultsDiv.style.display = 'none';
+        });
         
         // 建立輔助函式確保 JS 跳轉路徑包含語言前綴
         function getLangPath(path) {
