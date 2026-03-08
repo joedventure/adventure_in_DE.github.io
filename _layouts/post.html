@@ -37,7 +37,7 @@ layout: default
         border: 1px solid #a2a9b1;
         background-color: #f8f9fa;
         padding: 15px;
-        flex: 1; /* 目錄佔用剩餘空間 */
+        flex: 1; 
         min-width: 250px;
         border-radius: 2px;
         font-size: 0.95em;
@@ -46,7 +46,7 @@ layout: default
     
     /* 靜態地圖框樣式 */
     .city-static-map-container {
-        flex: 0 0 300px; /* 固定地圖寬度 */
+        flex: 0 0 300px; /* 桌面版固定寬度 */
         border: 1px solid #a2a9b1;
         background: #fff;
         padding: 5px;
@@ -69,67 +69,52 @@ layout: default
         line-height: 1.4;
     }
 
-    .toc-title {
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 8px;
-    }
-    #toc-toggle {
-        cursor: pointer;
-        color: #0645ad;
-        font-weight: normal;
-        font-size: 0.85em;
-        margin: 3px;
-    }
-    #toc-toggle:hover { text-decoration: underline; }
-    
-    .toc-list {
-        list-style: none;
-        padding-left: 0;
-        margin: 0;
-    }
-    .toc-list li { margin: 4px 0; }
-    .toc-list a { 
-        text-decoration: none; 
-        color: #0645ad; 
-    }
-    .toc-list a:hover { text-decoration: underline; }
+    /* --- 手機版 RWD 修正 --- */
+    @media (max-width: 900px) {
+        .info-row {
+            flex-direction: column; /* 讓目錄與地圖垂直排列 */
+            gap: 15px;
+        }
 
-    /* 景點區塊樣式 */
-    .spot-section { margin-top: 50px; }
-    h2 { 
-        border-bottom: 1px solid #ccc; 
-        padding-bottom: 5px; 
-        margin-top: 40px;
-        color: #202122;
+        .city-static-map-container {
+            flex: 1 1 auto;
+            width: 100%; /* 強制地圖容器佔滿寬度，防止超出範圍 */
+            box-sizing: border-box;
+        }
+
+        .toc-box {
+            width: 100%;
+            box-sizing: border-box;
+        }
     }
+
+    /* 其餘樣式保持不變 */
+    .toc-title { font-weight: bold; text-align: center; margin-bottom: 8px; }
+    #toc-toggle { cursor: pointer; color: #0645ad; font-weight: normal; font-size: 0.85em; margin: 3px; }
+    #toc-toggle:hover { text-decoration: underline; }
+    .toc-list { list-style: none; padding-left: 0; margin: 0; }
+    .toc-list li { margin: 4px 0; }
+    .toc-list a { text-decoration: none; color: #0645ad; }
+    .toc-list a:hover { text-decoration: underline; }
+    h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 40px; color: #202122; }
 </style>
 
 <div class="post-header">
     {% if page.state_name %}
     <span class="state-badge">
-        {% if page.lang == "en" %}
-            📍 You are in: {{ page.state_name }}
-        {% elsif page.lang == "jp" %}
-            📍 現在地：{{ page.state_name }}{% unless page.state_name contains "州" %}州{% endunless %}
-        {% else %}
-            📍 所在聯邦：{{ page.state_name }}
-        {% endif %}
+        {% if page.lang == "en" %} 📍 You are in: {{ page.state_name }}
+        {% elsif page.lang == "jp" %} 📍 現在地：{{ page.state_name }}{% unless page.state_name contains "州" %}州{% endunless %}
+        {% else %} 📍 所在聯邦：{{ page.state_name }} {% endif %}
     </span>
     {% endif %}
 </div>
 
-{% comment %} 改為並排容器 {% endcomment %}
 <div class="info-row">
     <div class="toc-box" id="toc-container" style="display: none;">
         <div class="toc-title">
-            {% if page.lang == "en" %}
-                Table of Contents [<span id="toc-toggle">Hide</span>]
-            {% elsif page.lang == "jp" %}
-                目次 [<span id="toc-toggle">非表示</span>]
-            {% else %}
-                目錄 [<span id="toc-toggle">隱藏</span>]
-            {% endif %}
+            {% if page.lang == "en" %} Table of Contents [<span id="toc-toggle">Hide</span>]
+            {% elsif page.lang == "jp" %} 目次 [<span id="toc-toggle">非表示</span>]
+            {% else %} 目錄 [<span id="toc-toggle">隱藏</span>] {% endif %}
         </div>
         <ul class="toc-list" id="markdown-toc"></ul>
     </div>
@@ -157,46 +142,36 @@ layout: default
         const headings = document.querySelectorAll('.post-content h2');
         const lang = "{{ page.lang }}";
         
-        // --- 1. 目錄生成邏輯 ---
+        // 1. 目錄生成邏輯 (保持不變)
         if (headings.length > 0) {
             tocContainer.style.display = 'table'; 
-            
             headings.forEach((heading, index) => {
                 const id = `spot-${index}`;
                 heading.setAttribute('id', id);
-                
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.href = `#${id}`;
                 a.textContent = (index + 1) + ". " + heading.textContent;
-                
                 li.appendChild(a);
                 tocList.appendChild(li);
             });
-
             if (tocToggle) {
                 tocToggle.addEventListener('click', function() {
                     const isHidden = tocList.style.display === 'none';
                     tocList.style.display = isHidden ? 'block' : 'none';
-
-                    if (lang === "en") {
-                        this.textContent = isHidden ? 'Hide' : 'Show';
-                    } else if (lang === "jp") {
-                        this.textContent = isHidden ? '非表示' : '表示';
-                    } else {
-                        this.textContent = isHidden ? '隱藏' : '顯示';
-                    }
+                    if (lang === "en") this.textContent = isHidden ? 'Hide' : 'Show';
+                    else if (lang === "jp") this.textContent = isHidden ? '非表示' : '表示';
+                    else this.textContent = isHidden ? '隱藏' : '顯示';
                 });
             }
         }
 
-        // --- 2. 自動生成靜態位置圖邏輯 ---
+        // 2. 自動生成靜態位置圖 (顯示整邦並標註紅點)
         const cityLat = {{ current_city.lat | default: 0 }};
         const cityLng = {{ current_city.lng | default: 0 }};
         const stateId = "{{ page.state_id }}";
 
         if (document.getElementById('static-map') && cityLat !== 0) {
-            // 初始化並禁用所有互動功能
             const staticMap = L.map('static-map', {
                 dragging: false,
                 touchZoom: false,
@@ -205,18 +180,26 @@ layout: default
                 boxZoom: false,
                 zoomControl: false,
                 attributionControl: false
-            }).setView([cityLat, cityLng], 7); 
+            }); 
 
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(staticMap);
 
-            // 載入州邊界背景
+            // 載入州邊界背景並「自動縮放」至整邦範圍
             fetch(`${baseUrl}/assets/germany_states.json`)
                 .then(res => res.json())
                 .then(data => {
-                    L.geoJSON(data, {
+                    const stateLayer = L.geoJSON(data, {
                         filter: (f) => (f.id === stateId || f.properties.id === stateId),
                         style: { color: "#2c3e50", weight: 2, fillColor: "#3498db", fillOpacity: 0.1 }
                     }).addTo(staticMap);
+                    
+                    // 關鍵修改：地圖自動適應整邦的範圍，而不是固定 zoom
+                    if (stateLayer.getLayers().length > 0) {
+                        staticMap.fitBounds(stateLayer.getBounds(), { padding: [10, 10] });
+                    } else {
+                        // 若無邊界資料則退回城市中心
+                        staticMap.setView([cityLat, cityLng], 7);
+                    }
                 });
 
             // 畫出城市紅點
