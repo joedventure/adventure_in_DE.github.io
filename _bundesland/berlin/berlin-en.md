@@ -7,6 +7,5 @@ permalink: /en/berlin/
 slug: berlin
 lang: en
 ---
-
-### 柏林熱門景點
-點擊地圖上的大頭針，查看更深入的景點解析。
+## Berlin Exploration Map
+Click the pins on the map above, and join me as we dive deep into the towns of Berlin. Or...
