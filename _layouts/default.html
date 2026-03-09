@@ -522,7 +522,7 @@
                 stateCities.forEach(city => {
                     L.marker([city.lat, city.lng])
                         .addTo(map)
-                        .bindPopup(`<a href="${getLangPath(city.url)}">👉 <b>${city.name}</b></a>`);
+                        .bindPopup(`<a href="${getLangPath(city.url)}"><b>👉 ${city.name}</b></a>`);
                 });
             }
             {% endif %}
