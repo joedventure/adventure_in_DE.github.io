@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% comment %} 1. 從 data/cities.yml 根據 URL 抓取該城市的座標資料 {% endcomment %}
+{% comment %} 1. 從 _data/cities.yml 根據 URL 抓取該城市的座標資料 {% endcomment %}
 {% assign current_city = nil %}
 {% assign state_data = site.data.cities[page.state_id] %}
 {% for city in state_data %}
@@ -202,7 +202,7 @@ layout: default
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(staticMap);
 
             // 載入州邊界背景並「自動縮放」至整邦範圍
-            fetch(`${baseUrl}/data/germany_states.json`)
+            fetch(`${baseUrl}/assets/germany_states.json`)
                 .then(res => res.json())
                 .then(data => {
                     const stateLayer = L.geoJSON(data, {
