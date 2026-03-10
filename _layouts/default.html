@@ -527,7 +527,7 @@
                 };
 
                 // 2. 取得目前的標籤
-                const label = uiLabels[currentLang] || uiLabels['zh']; // 預設中文
+                const label = uiLabels[current_page_lang] || uiLabels['zh']; // 預設中文
                 
                 stateCities.forEach(city => {
                     L.marker([city.lat, city.lng])
