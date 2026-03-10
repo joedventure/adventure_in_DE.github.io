@@ -202,7 +202,7 @@ layout: default
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(staticMap);
 
             // 載入州邊界背景並「自動縮放」至整邦範圍
-            fetch(`${baseUrl}/assets/germany_states.json`)
+            fetch(`${baseUrl}/_data/germany_states.json`)
                 .then(res => res.json())
                 .then(data => {
                     const stateLayer = L.geoJSON(data, {
