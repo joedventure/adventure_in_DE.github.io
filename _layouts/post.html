@@ -83,6 +83,30 @@ layout: default
         box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 淡淡的陰影 */
     }
 
+    /* --- 回置頂按鈕樣式 (全域) --- */
+    #back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 45px;
+        height: 45px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        display: none; /* 初始隱藏 */
+        z-index: 9999;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    #back-to-top:hover { background-color: #2980b9; transform: translateY(-5px); }
+
     /* --- 手機版 RWD 修正 --- */
     @media (max-width: 900px) {
         .post-content img {
@@ -104,6 +128,15 @@ layout: default
         .toc-box {
             width: 100%;
             box-sizing: border-box;
+        }
+
+        /* 手機按鈕微調 */
+        #back-to-top {
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            opacity: 0.9;
         }
     }
 
@@ -230,5 +263,17 @@ layout: default
                 fillOpacity: 1
             }).addTo(staticMap);
         }
+        // --- 3. 全域回置頂按鈕功能 ---
+        const backToTopBtn = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     });
 </script>
