@@ -2,11 +2,8 @@
 layout: post
 show_map: false
 title: "中萊茵河谷城堡巡禮"
-slug: mittelrheintal
 lang: zh
 permalink: /mittelrheintal/
-current_city:
-  lat: 50.0
 ---
 
 中萊茵河谷作為世界文化遺產，當然有需要好好的介紹一下。
