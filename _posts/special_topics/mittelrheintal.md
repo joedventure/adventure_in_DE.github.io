@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "中萊茵河谷城堡巡禮"
 state_name: ""
 state_id: ""
