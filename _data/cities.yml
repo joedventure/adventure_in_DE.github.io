@@ -173,6 +173,36 @@ hessen:
     lat: 49.9389
     lng: 8.7417
     url: "/hessen/messel/"
+  - zh_name: "布倫瑟堡 (Brömserburg)"
+    en_name: "Brömserburg"
+    jp_name: "ブレムザー城 (Brömserburg)"
+    lat: 49.9774
+    lng: 7.9174
+    url: "/hessen/broemserburg/"
+  - zh_name: "波森堡 (Boosenburg)"
+    en_name: "Boosenburg"
+    jp_name: "ボーゼンブルク城 (Boosenburg)"
+    lat: 49.9781
+    lng: 7.9181
+    url: "/hessen/boosenburg/"
+  - zh_name: "羅素城堡廢墟 (Burgruine Rossel)"
+    en_name: "Burgruine Rossel"
+    jp_name: "ロッセルの城跡 (Burgruine Rossel)"
+    lat: 49.9814
+    lng: 7.8864
+    url: "/hessen/burgruine-rossel/"
+  - zh_name: "艾倫費爾斯城堡 (Burg Ehrenfels)"
+    en_name: "Burg Ehrenfels"
+    jp_name: "エーレンフェルス城 (Burg Ehrenfels)"
+    lat: 49.9754
+    lng: 7.8856
+    url: "/hessen/burg-ehrenfels/"
+  - zh_name: "諾利希堡 (Burg Nollig)"
+    en_name: "Burg Nollig"
+    jp_name: "ノリヒ城 (Burg Nollig)"
+    lat: 50.0531
+    lng: 7.8111
+    url: "/hessen/burg-nollig/"
     
 mecklenburg-vorpommern:
   - zh_name: "施威林 (Schwerin)"
@@ -253,6 +283,150 @@ rheinland-pfalz:
     lat: 50.3597
     lng: 7.5978
     url: "/rheinland-pfalz/koblenz/"
+- zh_name: "克洛普城堡 (Burg Klopp)"
+    en_name: "Burg Klopp"
+    jp_name: "クロップ城 (Burg Klopp)"
+    lat: 49.9657
+    lng: 7.8929
+    url: "/rheinland-pfalz/burg-klopp/"
+  - zh_name: "老鼠塔 (Mäuseturm)"
+    en_name: "Mäuseturm"
+    jp_name: "ネズミの塔 (Mäuseturm)"
+    lat: 49.9723
+    lng: 7.8805
+    url: "/rheinland-pfalz/maeuseturm/"
+  - zh_name: "萊因斯坦城堡 (Burg Rheinstein)"
+    en_name: "Burg Rheinstein"
+    jp_name: "ラインシュタイン城 (Burg Rheinstein)"
+    lat: 49.9944
+    lng: 7.8575
+    url: "/rheinland-pfalz/burg-rheinstein/"
+  - zh_name: "萊興斯坦城堡 (Burg Reichenstein)"
+    en_name: "Burg Reichenstein"
+    jp_name: "ライヒェンシュタイン城 (Burg Reichenstein)"
+    lat: 50.0044
+    lng: 7.8489
+    url: "/rheinland-pfalz/burg-reichenstein/"
+  - zh_name: "蘇內克城堡 (Burg Sooneck)"
+    en_name: "Burg Sooneck"
+    jp_name: "ゾーネック城 (Burg Sooneck)"
+    lat: 50.0197
+    lng: 7.8250
+    url: "/rheinland-pfalz/burg-sooneck/"
+  - zh_name: "霍內克城堡 (Burg Hohneck)"
+    en_name: "Burg Hohneck"
+    jp_name: "ホーネック城 (Burg Hohneck)"
+    lat: 50.0383
+    lng: 7.8117
+    url: "/rheinland-pfalz/burg-hohneck/"
+  - zh_name: "弗斯騰城堡 (Burg Fürstenberg)"
+    en_name: "Burg Fürstenberg"
+    jp_name: "フュルステンベルク城 (Burg Fürstenberg)"
+    lat: 50.0414
+    lng: 7.8028
+    url: "/rheinland-pfalz/burg-fuerstenberg/"
+  - zh_name: "史塔雷克城堡 (Burg Stahleck)"
+    en_name: "Burg Stahleck"
+    jp_name: "シュターレック城 (Burg Stahleck)"
+    lat: 50.0594
+    lng: 7.7667
+    url: "/rheinland-pfalz/burg-stahleck/"
+  - zh_name: "法爾茨伯爵石船堡 (Pfalzgrafenstein)"
+    en_name: "Pfalzgrafenstein"
+    jp_name: "プファルツグラーフェンシュタイン城 (Pfalzgrafenstein)"
+    lat: 50.0814
+    lng: 7.7675
+    url: "/rheinland-pfalz/pfalzgrafenstein/"
+  - zh_name: "古滕費爾斯城堡 (Burg Gutenfels)"
+    en_name: "Burg Gutenfels"
+    jp_name: "グーテンフェルス城 (Burg Gutenfels)"
+    lat: 50.0853
+    lng: 7.7719
+    url: "/rheinland-pfalz/burg-gutenfels/"
+  - zh_name: "舒恩堡 (Schönburg)"
+    en_name: "Schönburg"
+    jp_name: "シェーンブルク城 (Schönburg)"
+    lat: 50.1014
+    lng: 7.7331
+    url: "/rheinland-pfalz/schoenburg/"
+  - zh_name: "卡茨城堡 (Burg Katz)"
+    en_name: "Burg Katz"
+    jp_name: "ネコ城 (Burg Katz)"
+    lat: 50.1506
+    lng: 7.7239
+    url: "/rheinland-pfalz/burg-katz/"
+  - zh_name: "萊茵費爾斯城堡 (Burg Rheinfels)"
+    en_name: "Burg Rheinfels"
+    jp_name: "ラインフェルス城 (Burg Rheinfels)"
+    lat: 50.1544
+    lng: 7.7056
+    url: "/rheinland-pfalz/burg-rheinfels/"
+  - zh_name: "鼠堡 (Burg Maus)"
+    en_name: "Burg Maus"
+    jp_name: "ネズミ城 (Burg Maus)"
+    lat: 50.1586
+    lng: 7.7125
+    url: "/rheinland-pfalz/burg-maus/"
+  - zh_name: "博帕德要塞 (Kastell Bodobrica)"
+    en_name: "Kastell Bodobrica"
+    jp_name: "ボドブリカ城塞 (Kastell Bodobrica)"
+    lat: 50.2319
+    lng: 7.5878
+    url: "/rheinland-pfalz/kastell-bodobrica/"
+  - zh_name: "博帕德 (Boppard)"
+    en_name: "Boppard"
+    jp_name: "ボッパルト (Boppard)"
+    lat: 50.2321
+    lng: 7.5850
+    url: "/rheinland-pfalz/boppard/"
+  - zh_name: "史特倫堡 (Burg Sterrenberg)"
+    en_name: "Burg Sterrenberg"
+    jp_name: "シュテレンベルク城 (Burg Sterrenberg)"
+    lat: 50.2119
+    lng: 7.6331
+    url: "/rheinland-pfalz/burg-sterrenberg/"
+  - zh_name: "利本斯坦堡 (Burg Liebenstein)"
+    en_name: "Burg Liebenstein"
+    jp_name: "リーベンシュタイン城 (Burg Liebenstein)"
+    lat: 50.2114
+    lng: 7.6347
+    url: "/rheinland-pfalz/burg-liebenstein/"
+  - zh_name: "馬克斯堡 (Marksburg)"
+    en_name: "Marksburg"
+    jp_name: "マルクスブルク城 (Marksburg)"
+    lat: 50.2717
+    lng: 7.6500
+    url: "/rheinland-pfalz/marksburg/"
+  - zh_name: "菲利普斯堡宮 (Schloss Philippsburg)"
+    en_name: "Schloss Philippsburg"
+    jp_name: "フィリップスブルク宮殿 (Schloss Philippsburg)"
+    lat: 50.2725
+    lng: 7.6469
+    url: "/rheinland-pfalz/schloss-philippsburg/"
+  - zh_name: "馬丁斯宮 (Schloss Martinsburg)"
+    en_name: "Schloss Martinsburg"
+    jp_name: "マルティンスブルク宮殿 (Schloss Martinsburg)"
+    lat: 50.3014
+    lng: 7.5997
+    url: "/rheinland-pfalz/schloss-martinsburg/"
+  - zh_name: "拉內克堡 (Burg Lahneck)"
+    en_name: "Burg Lahneck"
+    jp_name: "ラーネック城 (Burg Lahneck)"
+    lat: 50.3092
+    lng: 7.6125
+    url: "/rheinland-pfalz/burg-lahneck/"
+  - zh_name: "斯托岑費爾斯宮 (Schloss Stolzenfels)"
+    en_name: "Schloss Stolzenfels"
+    jp_name: "シュトルツェンフェルス城 (Schloss Stolzenfels)"
+    lat: 50.3031
+    lng: 7.5925
+    url: "/rheinland-pfalz/schloss-stolzenfels/"
+  - zh_name: "艾倫布萊特斯坦要塞 (Festung Ehrenbreitstein)"
+    en_name: "Festung Ehrenbreitstein"
+    jp_name: "エーレンブライトシュタイン要塞"
+    lat: 50.3644
+    lng: 7.6156
+    url: "/rheinland-pfalz/festung-ehrenbreitstein/"
     
 saarland:
   - zh_name: "薩爾布魯根 (Saarbrücken)"
