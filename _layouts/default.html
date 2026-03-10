@@ -290,11 +290,13 @@
         <aside class="sidebar">
             {% comment %} 2- Side bar 語言相對應更新 {% endcomment %}
             <section class="sidebar-card">
+                {% capture home_url %}/{% if page.lang == "en" %}en/{% elsif page.lang == "jp" %}jp/{% endif %}{% endcapture %}
+
                 <h3>🔍 
                     {% if page.lang == "en" %}Explore Special Topics{% elsif page.lang == "jp" %}特別テーマを探索する{% else %}專題漫遊{% endif %}
                 </h3>
                 <ul>
-                    <li><a href="https://joedventure.github.io/adventure_in_de/_posts/special_topics/mittelrheintal">{% if page.lang == "en" %}🏰 A Journey Through the Castles of the Middle Rhine{% elsif page.lang == "jp" %}🏰 中ライン渓谷の古城巡り{% else %}🏰 中萊茵河谷城堡巡禮{% endif %}</a></li>
+                    <li><a href="{{ home_url | relative_url }}/mittelrheintal/">{% if page.lang == "en" %}🏰 A Journey Through the Castles of the Middle Rhine{% elsif page.lang == "jp" %}🏰 中ライン渓谷の古城巡り{% else %}🏰 中萊茵河谷城堡巡禮{% endif %}</a></li>
                     <li><a href="#">{% if page.lang == "en" %}🇩🇪 German World Heritage{% elsif page.lang == "jp" %}🇩🇪 ドイツ世界遺産{% else %}🇩🇪 德國世界遺產全紀錄{% endif %}</a></li>
                     <li><a href="#">{% if page.lang == "en" %}🥨 Bavarian Food Map{% elsif page.lang == "jp" %}🥨 バイエルングルメ{% else %}🥨 巴伐利亞美食地圖{% endif %}</a></li>
                     <li><a href="#">{% if page.lang == "en" %}🚆 DB Guide{% elsif page.lang == "jp" %}🚆 德鉄 DB 教本{% else %}🚆 德鐵 DB 乘車教學{% endif %}</a></li>
