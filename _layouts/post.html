@@ -12,144 +12,43 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
+{% endif %} {% comment %} <-- 這裡原本漏掉閉合了 {% endcomment %}
 
 <style>
+    /* ... 您的樣式內容 ... */
     .post-header { margin-bottom: 30px; }
-    .state-badge { 
-        display: inline-block; 
-        background: #e9ecef; 
-        padding: 4px 12px; 
-        border-radius: 20px; 
-        font-size: 0.9em; 
-        color: #495057;
-        margin-bottom: 10px;
-    }
-    
-    /* 並排容器：目錄與地圖 */
-    .info-row {
-        display: flex;
-        gap: 20px;
-        align-items: flex-start;
-        margin: 20px 0;
-    }
+    .state-badge { display: inline-block; background: #e9ecef; padding: 4px 12px; border-radius: 20px; font-size: 0.9em; color: #495057; margin-bottom: 10px; }
+    .info-row { display: flex; gap: 20px; align-items: flex-start; margin: 20px 0; }
+    .toc-box { border: 1px solid #a2a9b1; background-color: #f8f9fa; padding: 15px; flex: 1; min-width: 250px; border-radius: 2px; font-size: 0.95em; margin: 0 !important; }
+    .city-static-map-container { flex: 0 0 300px; border: 1px solid #a2a9b1; background: #fff; padding: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+    #static-map { height: 250px; width: 100%; background: #e9ecef; }
+    .map-caption { font-size: 0.85em; padding: 8px 5px; text-align: center; color: #54595d; background: #f8f9fa; border-top: 1px solid #eee; line-height: 1.4; }
+    .post-content img { display: block; width: 100%; max-width: 300px; height: auto; margin: 1em 0; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 
-    /* 維基百科風格目錄小方格 */
-    .toc-box {
-        border: 1px solid #a2a9b1;
-        background-color: #f8f9fa;
-        padding: 15px;
-        flex: 1; 
-        min-width: 250px;
-        border-radius: 2px;
-        font-size: 0.95em;
-        margin: 0 !important;
-    }
-    
-    /* 靜態地圖框樣式 */
-    .city-static-map-container {
-        flex: 0 0 300px; /* 桌面版固定寬度 */
-        border: 1px solid #a2a9b1;
-        background: #fff;
-        padding: 5px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    }
-
-    #static-map {
-        height: 250px;
-        width: 100%;
-        background: #e9ecef;
-    }
-
-    .map-caption {
-        font-size: 0.85em;
-        padding: 8px 5px;
-        text-align: center;
-        color: #54595d;
-        background: #f8f9fa;
-        border-top: 1px solid #eee;
-        line-height: 1.4;
-    }
-
-      /* --- 圖片自動縮放 --- */
-    .post-content img {
-        display: block;
-        /* 在手機上自動適應寬度，最高不超過容器 */
-        width: 100%; 
-        /* 設定最大寬度，避免在電腦版看圖片太大（可依喜好調整，如 600px） */
-        max-width: 300px; 
-        height: auto;
-        margin: 1em 0; /* 上下留空，靠左 */
-        border-radius: 8px; /* 圓角 */
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* 淡淡的陰影 */
-    }
-
-    /* --- 回置頂按鈕樣式 (全域) --- */
+    /* 置頂按鈕樣式 */
     #back-to-top {
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 45px;
-        height: 45px;
-        background-color: #3498db;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        display: none; /* 初始隱藏 */
-        z-index: 9999;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        transition: all 0.3s ease;
-        font-size: 20px;
-        align-items: center;
-        justify-content: center;
+        position: fixed; bottom: 30px; right: 30px; width: 45px; height: 45px;
+        background-color: #3498db; color: white; border: none; border-radius: 50%;
+        cursor: pointer; display: none; z-index: 9999;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: all 0.3s ease;
+        font-size: 20px; align-items: center; justify-content: center;
         -webkit-tap-highlight-color: transparent;
     }
 
-    #back-to-top:hover { background-color: #2980b9; transform: translateY(-5px); }
-
-    /* --- 手機版 RWD 修正 --- */
     @media (max-width: 900px) {
-        .post-content img {
-            max-width: 100%; /* 手機版讓它貼近邊界 */
-            margin: 1em auto;
-        }
-      
-        .info-row {
-            flex-direction: column; /* 讓目錄與地圖垂直排列 */
-            gap: 15px;
-        }
-
-        .city-static-map-container {
-            flex: 1 1 auto;
-            width: 100%; /* 強制地圖容器佔滿寬度，防止超出範圍 */
-            box-sizing: border-box;
-        }
-
-        .toc-box {
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        /* 手機按鈕微調 */
-        #back-to-top {
-            bottom: 20px;
-            right: 20px;
-            width: 40px;
-            height: 40px;
-            opacity: 0.9;
-        }
+        .post-content img { max-width: 100%; margin: 1em auto; }
+        .info-row { flex-direction: column; gap: 15px; }
+        .city-static-map-container { flex: 1 1 auto; width: 100%; box-sizing: border-box; }
+        #back-to-top { bottom: 20px; right: 20px; width: 40px; height: 40px; opacity: 0.9; }
     }
-
-    /* 其餘樣式保持不變 */
     .toc-title { font-weight: bold; text-align: center; margin-bottom: 8px; }
     #toc-toggle { cursor: pointer; color: #0645ad; font-weight: normal; font-size: 0.85em; margin: 3px; }
-    #toc-toggle:hover { text-decoration: underline; }
     .toc-list { list-style: none; padding-left: 0; margin: 0; }
-    .toc-list li { margin: 4px 0; }
     .toc-list a { text-decoration: none; color: #0645ad; }
-    .toc-list a:hover { text-decoration: underline; }
     h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 40px; color: #202122; }
 </style>
+
+<button id="back-to-top" title="Back to Top">↑</button>
 
 <div class="post-header">
     {% if page.state_name %}
@@ -174,9 +73,7 @@ layout: default
     {% if current_city.lat %}
     <div class="city-static-map-container">
         <div id="static-map"></div>
-        <div class="map-caption">
-            <strong>{{ page.state_name }}</strong><br>
-        </div>
+        <div class="map-caption"><strong>{{ page.state_name }}</strong></div>
     </div>
     {% endif %}
 </div>
@@ -187,13 +84,14 @@ layout: default
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        const lang = "{{ page.lang }}";
+        
+        // 1. 目錄生成
         const tocList = document.getElementById('markdown-toc');
         const tocContainer = document.getElementById('toc-container');
         const tocToggle = document.getElementById('toc-toggle');
         const headings = document.querySelectorAll('.post-content h2');
-        const lang = "{{ page.lang }}";
         
-        // 1. 目錄生成邏輯 (保持不變)
         if (headings.length > 0) {
             tocContainer.style.display = 'table'; 
             headings.forEach((heading, index) => {
@@ -217,26 +115,23 @@ layout: default
             }
         }
 
-        // 2. 自動生成靜態位置圖 (顯示整邦並標註紅點)
+        // 2. 地圖邏輯 (確保有容器才執行)
         const cityLat = {{ current_city.lat | default: 0 }};
         const cityLng = {{ current_city.lng | default: 0 }};
         const stateId = "{{ page.state_id }}";
+        const mapElement = document.getElementById('static-map');
 
-        if (document.getElementById('static-map') && cityLat !== 0) {
+        if (mapElement && cityLat !== 0) {
             const staticMap = L.map('static-map', {
-                dragging: false,
-                touchZoom: false,
-                scrollWheelZoom: false,
-                doubleClickZoom: false,
-                boxZoom: false,
-                zoomControl: false,
+                dragging: false, touchZoom: false, scrollWheelZoom: false,
+                doubleClickZoom: false, boxZoom: false, zoomControl: false,
                 attributionControl: false
             }); 
 
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(staticMap);
 
-            // 載入州邊界背景並「自動縮放」至整邦範圍
-            fetch(`${baseUrl}/assets/germany_states.json`)
+            // 改用 site.baseurl 確保路徑正確
+            fetch("{{ site.baseurl }}/assets/germany_states.json")
                 .then(res => res.json())
                 .then(data => {
                     const stateLayer = L.geoJSON(data, {
@@ -244,36 +139,27 @@ layout: default
                         style: { color: "#2c3e50", weight: 2, fillColor: "#3498db", fillOpacity: 0.1 }
                     }).addTo(staticMap);
                     
-                    // 關鍵修改：地圖自動適應整邦的範圍，而不是固定 zoom
                     if (stateLayer.getLayers().length > 0) {
                         staticMap.fitBounds(stateLayer.getBounds(), { padding: [10, 10] });
                     } else {
-                        // 若無邊界資料則退回城市中心
                         staticMap.setView([cityLat, cityLng], 7);
                     }
                 });
 
-            // 畫出城市紅點
             L.circleMarker([cityLat, cityLng], {
-                radius: 6,
-                fillColor: "#e74c3c",
-                color: "#fff",
-                weight: 2,
-                opacity: 1,
-                fillOpacity: 1
+                radius: 6, fillColor: "#e74c3c", color: "#fff", weight: 2, opacity: 1, fillOpacity: 1
             }).addTo(staticMap);
         }
-        // --- 3. 全域回置頂按鈕功能 ---
+
+        // 3. 置頂按鈕 (獨立執行，不受地圖出錯影響)
         const backToTopBtn = document.getElementById('back-to-top');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 400) {
-                backToTopBtn.style.display = 'flex';
-            } else {
-                backToTopBtn.style.display = 'none';
-            }
-        });
-        backToTopBtn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
+        if (backToTopBtn) {
+            window.addEventListener('scroll', () => {
+                backToTopBtn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+            });
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
     });
 </script>
