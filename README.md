@@ -6,7 +6,7 @@
 
 1. 資料層：
   _data/cities.yml：存放所有城市與景點的詳細資訊。當需要新增或修改城市時，只需編輯 _data/cities.yml，不需更動任何 Markdown 檔案。
-  assets/germany_states.json：存放德國各邦的地理邊界
+  _data/germany_states.json：存放德國各邦的地理邊界
 
 2. 佈局層：
   _layouts/default.html：負責地圖初始化，主頁以及邦頁面的架構
