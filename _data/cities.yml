@@ -5,28 +5,24 @@ baden-wuerttemberg:
     lat: 49.4088
     lng: 8.7021
     url: "/baden-wuerttemberg/heidelberg/"
-    type: "city"
   - zh_name: "曼海姆 (Mannheim)"
     en_name: "Mannheim"
     jp_name: "マンハイム (Mannheim)"
     lat: 49.4878
     lng: 8.4661
     url: "/baden-wuerttemberg/mannheim/"
-    type: "city"
   - zh_name: "弗萊堡 (Freiburg im Breisgau)"
     en_name: "Freiburg im Breisgau"
     jp_name: "フライブルク (Freiburg im Breisgau)"
     lat: 47.9990
     lng: 7.8421
     url: "/baden-wuerttemberg/freiburg/"
-    type: "city"
   - zh_name: "埃伯巴赫 (Eberbach)"
     en_name: "Eberbach"
     jp_name: "エーベルバッハ (Eberbach)"
     lat: 49.4639
     lng: 8.9858
     url: "/baden-wuerttemberg/eberbach/"
-    type: "city"
     
 bayern:
   - zh_name: "慕尼黑 (München)"
@@ -35,21 +31,18 @@ bayern:
     lat: 48.1351
     lng: 11.5820
     url: "/bayern/muenchen/"
-    type: "city"
   - zh_name: "紐倫堡 (Nürnberg)"
     en_name: "Nuremberg"
     jp_name: "ニュルンベルク (Nürnberg)"
     lat: 49.4521
     lng: 11.0767
     url: "/bayern/nuernberg/"
-    type: "city"
   - zh_name: "羅騰堡 (Rothenburg ob der Tauber)"
     en_name: "Rothenburg ob der Tauber"
     jp_name: "ローテンブルク・オプ・デア・タウバー (Rothenburg ob der Tauber)"
     lat: 49.3772
     lng: 10.1793
     url: "/bayern/rothenburg/"
-    type: "city"
     
 berlin:
   - zh_name: "柏林 (Berlin)"
@@ -58,7 +51,6 @@ berlin:
     lat: 52.52
     lng: 13.405
     url: "/berlin/berlin-city/"
-    type: "city"
 
 brandenburg:
   - zh_name: "奧得河畔法蘭克福 (Frankfurt Oder)"
@@ -67,28 +59,24 @@ brandenburg:
     lat: 52.3419
     lng: 14.5517
     url: "/brandenburg/frankfurt-oder/"
-    type: "city"
   - zh_name: "尤特博格 (Jüterbog)"
     en_name: "Jüterbog"
     jp_name: "ユーターボーク (Jüterbog)"
     lat: 51.9908
     lng: 13.0836
     url: "/brandenburg/jueterbog/"
-    type: "city"
   - zh_name: "波茨坦 (Potsdam)"
     en_name: "Potsdam"
     jp_name: "ポツダム (Potsdam)"
     lat: 52.3906
     lng: 13.0645
     url: "/brandenburg/potsdam/"
-    type: "city"
   - zh_name: "溫斯多夫 (Wünsdorf)"
     en_name: "Wünsdorf"
     jp_name: "ヴュンスドルフ (Wünsdorf)"
     lat: 52.1914
     lng: 13.4683
     url: "/brandenburg/wuensdorf/"
-    type: "city"
     
 bremen:
   - zh_name: "不萊梅 (Bremen)"
@@ -97,7 +85,6 @@ bremen:
     lat: 53.0793
     lng: 8.8017
     url: "/bremen/bremen/"
-    type: "city"
     
 hamburg:
   - zh_name: "漢堡 (Hamburg)"
@@ -106,7 +93,6 @@ hamburg:
     lat: 53.5511
     lng: 9.9937
     url: "/hamburg/hamburg/"
-    type: "city"
     
 hessen:
   - zh_name: "倫克爾 (Runkel)"
@@ -115,126 +101,108 @@ hessen:
     lat: 50.4053
     lng: 8.1559
     url: "/hessen/runkel/"
-    type: "city"
   - zh_name: "美因河畔法蘭克福 (Frankfurt am Main)"
     en_name: "Frankfurt am Main"
     jp_name: "フランクフルト・アム・マイン (Frankfurt am Main)"
     lat: 50.1106
     lng: 8.6822
     url: "/hessen/frankfurt-am-main/"
-    type: "city"
   - zh_name: "洛爾施 (Lorsch)"
     en_name: "Lorsch"
     jp_name: "ロルシュ (Lorsch)"
     lat: 49.6539
     lng: 8.5675
     url: "/hessen/lorsch/"
-    type: "city"
   - zh_name: "黑彭海姆 (Heppenheim)"
     en_name: "Heppenheim"
     jp_name: "ヘッペンハイム (Heppenheim)"
     lat: 49.6431
     lng: 8.6389
     url: "/hessen/heppenheim/"
-    type: "city"
   - zh_name: "達姆施塔特 (Darmstadt)"
     en_name: "Darmstadt"
     jp_name: "ダルムシュタット (Darmstadt)"
     lat: 49.8722
     lng: 8.6528
     url: "/hessen/darmstadt/"
-    type: "city"
   - zh_name: "威斯巴登 (Wiesbaden)"
     en_name: "Wiesbaden"
     jp_name: "ヴィースバーデン (Wiesbaden)"
     lat: 50.0825
     lng: 8.2400
     url: "/hessen/wiesbaden/"
-    type: "city"
   - zh_name: "蘭河畔林堡 (Limburg an der Lahn)"
     en_name: "Limburg an der Lahn"
     jp_name: "リンブルク・アン・デア・ラーン (Limburg an der Lahn)"
     lat: 50.3833
     lng: 8.0667
     url: "/hessen/limburg-an-der-lahn/"
-    type: "city"
   - zh_name: "米歇爾施塔特 (Michelstadt)"
     en_name: "Michelstadt"
     jp_name: "ミッシェルシュタット (Michelstadt)"
     lat: 49.6786
     lng: 9.0039
     url: "/hessen/michelstadt/"
-    type: "city"
   - zh_name: "呂德斯海姆 (Rüdesheim)"
     en_name: "Rüdesheim am Rhein"
     jp_name: "リューデスハイム (Rüdesheim am Rhein)"
     lat: 49.9833
     lng: 7.9306
     url: "/hessen/ruedesheim/"
-    type: "city"
   - zh_name: "希爾施霍恩 (Hirschhorn (Neckar))"
     en_name: "Hirschhorn (Neckar)"
     jp_name: "ヒルシュホルン (Hirschhorn (Neckar))"
     lat: 49.4469
     lng: 8.8986
     url: "/baden-wuerttemberg/hirschhorn/" 
-    type: "city"
   - zh_name: "布羅伊貝格 (Breuberg)"
     en_name: "Breuberg"
     jp_name: "ブロイベルク (Breuberg)"
     lat: 49.8189
     lng: 9.0347
     url: "/hessen/breuberg/"
-    type: "city"
   - zh_name: "伊德斯坦 (Idstein)"
     en_name: "Idstein"
     jp_name: "イドシュタイン (Idstein)"
     lat: 50.2206
     lng: 8.2694
     url: "/hessen/idstein/"
-    type: "city"
   - zh_name: "梅塞爾 (Messel)"
     en_name: "Messel"
     jp_name: "メッセル (Messel)"
     lat: 49.9389
     lng: 8.7417
     url: "/hessen/messel/"
-    type: "city"
   - zh_name: "布倫瑟堡 (Brömserburg)"
     en_name: "Brömserburg"
     jp_name: "ブレムザー城 (Brömserburg)"
     lat: 49.9774
     lng: 7.9174
     url: "/hessen/broemserburg/"
-    type: "castle"
   - zh_name: "波森堡 (Boosenburg)"
     en_name: "Boosenburg"
     jp_name: "ボーゼンブルク城 (Boosenburg)"
     lat: 49.9781
     lng: 7.9181
     url: "/hessen/boosenburg/"
-    type: "castle"
   - zh_name: "羅素城堡廢墟 (Burgruine Rossel)"
     en_name: "Burgruine Rossel"
     jp_name: "ロッセルの城跡 (Burgruine Rossel)"
     lat: 49.9814
     lng: 7.8864
     url: "/hessen/burgruine-rossel/"
-    type: "castle"
   - zh_name: "艾倫費爾斯城堡 (Burg Ehrenfels)"
     en_name: "Burg Ehrenfels"
     jp_name: "エーレンフェルス城 (Burg Ehrenfels)"
     lat: 49.9754
     lng: 7.8856
     url: "/hessen/burg-ehrenfels/"
-    type: "castle"
   - zh_name: "諾利希堡 (Burg Nollig)"
     en_name: "Burg Nollig"
     jp_name: "ノリヒ城 (Burg Nollig)"
     lat: 50.0531
     lng: 7.8111
     url: "/hessen/burg-nollig/"
-    type: "castle"
     
 mecklenburg-vorpommern:
   - zh_name: "施威林 (Schwerin)"
@@ -243,14 +211,12 @@ mecklenburg-vorpommern:
     lat: 53.6290
     lng: 11.4148
     url: "/mecklenburg-vorpommern/schwerin/"
-    type: "city"
   - zh_name: "威斯馬 (Wismar)"
     en_name: "Wismar"
     jp_name: "ヴィスマール (Wismar)"
     lat: 53.8925
     lng: 11.4647
     url: "/mecklenburg-vorpommern/wismar/"
-    type: "city"
     
 niedersachsen:
   - zh_name: "漢諾威 (Hannover)"
@@ -259,7 +225,6 @@ niedersachsen:
     lat: 52.3759
     lng: 9.7320
     url: "/niedersachsen/hannover/"
-    type: "city"
     
 nordrhein-westfalen:
   - zh_name: "科隆 (Köln)"
@@ -268,21 +233,18 @@ nordrhein-westfalen:
     lat: 50.9364
     lng: 6.9528
     url: "/nordrhein-westfalen/koeln/"
-    type: "city"
   - zh_name: "波昂 (Bonn)"
     en_name: "Bonn"
     jp_name: "ボン (Bonn)"
     lat: 50.7353
     lng: 7.1022
     url: "/nordrhein-westfalen/bonn/"
-    type: "city"
   - zh_name: "阿亨 (Aachen)"
     en_name: "Aachen"
     jp_name: "アーヘン (Aachen)"
     lat: 50.7756
     lng: 6.0836
     url: "/nordrhein-westfalen/aachen/"
-    type: "city"
     
 rheinland-pfalz:
   - zh_name: "美因茨 (Mainz)"
@@ -291,210 +253,180 @@ rheinland-pfalz:
     lat: 49.9994
     lng: 8.2736
     url: "/rheinland-pfalz/mainz/"
-    type: "city"
   - zh_name: "特里爾 (Trier)"
     en_name: "Trier"
     jp_name: "トリーア (Trier)"
     lat: 49.7567
     lng: 6.6414
     url: "/rheinland-pfalz/trier/"
-    type: "city"
   - zh_name: "沃姆斯 (Worms)"
     en_name: "Worms"
     jp_name: "ヴォルムス (Worms)"
     lat: 49.6319
     lng: 8.3652
     url: "/rheinland-pfalz/worms/"
-    type: "city"
   - zh_name: "斯派爾 (Speyer)"
     en_name: "Speyer"
     jp_name: "シュパイアー (Speyer)"
     lat: 49.3194
     lng: 8.4311
     url: "/rheinland-pfalz/speyer/"
-    type: "city"
   - zh_name: "巴特明斯特 (Bad Münster am Stein-Ebernburg)"
     en_name: "Bad Münster am Stein-Ebernburg"
     jp_name: "バート・ミュンスター・アム・シュタイン＝エーベルンブルク  (Bad Münster am Stein-Ebernburg)"
     lat: 49.8092
     lng: 7.8439
     url: "/rheinland-pfalz/bad-muenster/"
-    type: "city"
   - zh_name: "科布倫茲 (Koblenz)"
     en_name: "Koblenz"
     jp_name: "コブレンツ (Koblenz)"
     lat: 50.3597
     lng: 7.5978
     url: "/rheinland-pfalz/koblenz/"
-    type: "city"
   - zh_name: "克洛普城堡 (Burg Klopp)"
     en_name: "Burg Klopp"
     jp_name: "クロップ城 (Burg Klopp)"
     lat: 49.9657
     lng: 7.8929
     url: "/rheinland-pfalz/burg-klopp/"
-    type: "castle"
   - zh_name: "老鼠塔 (Mäuseturm)"
     en_name: "Mäuseturm"
     jp_name: "ネズミの塔 (Mäuseturm)"
     lat: 49.9723
     lng: 7.8805
     url: "/rheinland-pfalz/maeuseturm/"
-    type: "castle"
   - zh_name: "萊因斯坦城堡 (Burg Rheinstein)"
     en_name: "Burg Rheinstein"
     jp_name: "ラインシュタイン城 (Burg Rheinstein)"
     lat: 49.9944
     lng: 7.8575
     url: "/rheinland-pfalz/burg-rheinstein/"
-    type: "castle"
   - zh_name: "萊興斯坦城堡 (Burg Reichenstein)"
     en_name: "Burg Reichenstein"
     jp_name: "ライヒェンシュタイン城 (Burg Reichenstein)"
     lat: 50.0044
     lng: 7.8489
     url: "/rheinland-pfalz/burg-reichenstein/"
-    type: "castle"
   - zh_name: "蘇內克城堡 (Burg Sooneck)"
     en_name: "Burg Sooneck"
     jp_name: "ゾーネック城 (Burg Sooneck)"
     lat: 50.0197
     lng: 7.8250
     url: "/rheinland-pfalz/burg-sooneck/"
-    type: "castle"
   - zh_name: "霍內克城堡 (Burg Hohneck)"
     en_name: "Burg Hohneck"
     jp_name: "ホーネック城 (Burg Hohneck)"
     lat: 50.0383
     lng: 7.8117
     url: "/rheinland-pfalz/burg-hohneck/"
-    type: "castle"
   - zh_name: "弗斯騰城堡 (Burg Fürstenberg)"
     en_name: "Burg Fürstenberg"
     jp_name: "フュルステンベルク城 (Burg Fürstenberg)"
     lat: 50.0414
     lng: 7.8028
     url: "/rheinland-pfalz/burg-fuerstenberg/"
-    type: "castle"
   - zh_name: "史塔雷克城堡 (Burg Stahleck)"
     en_name: "Burg Stahleck"
     jp_name: "シュターレック城 (Burg Stahleck)"
     lat: 50.0594
     lng: 7.7667
     url: "/rheinland-pfalz/burg-stahleck/"
-    type: "castle"
   - zh_name: "法爾茨伯爵石船堡 (Pfalzgrafenstein)"
     en_name: "Pfalzgrafenstein"
     jp_name: "プファルツグラーフェンシュタイン城 (Pfalzgrafenstein)"
     lat: 50.0814
     lng: 7.7675
     url: "/rheinland-pfalz/pfalzgrafenstein/"
-    type: "castle"
   - zh_name: "古滕費爾斯城堡 (Burg Gutenfels)"
     en_name: "Burg Gutenfels"
     jp_name: "グーテンフェルス城 (Burg Gutenfels)"
     lat: 50.0853
     lng: 7.7719
     url: "/rheinland-pfalz/burg-gutenfels/"
-    type: "castle"
   - zh_name: "舒恩堡 (Schönburg)"
     en_name: "Schönburg"
     jp_name: "シェーンブルク城 (Schönburg)"
     lat: 50.1014
     lng: 7.7331
     url: "/rheinland-pfalz/schoenburg/"
-    type: "castle"
   - zh_name: "卡茨城堡 (Burg Katz)"
     en_name: "Burg Katz"
     jp_name: "ネコ城 (Burg Katz)"
     lat: 50.1506
     lng: 7.7239
     url: "/rheinland-pfalz/burg-katz/"
-    type: "castle"
   - zh_name: "萊茵費爾斯城堡 (Burg Rheinfels)"
     en_name: "Burg Rheinfels"
     jp_name: "ラインフェルス城 (Burg Rheinfels)"
     lat: 50.1544
     lng: 7.7056
     url: "/rheinland-pfalz/burg-rheinfels/"
-    type: "castle"
   - zh_name: "鼠堡 (Burg Maus)"
     en_name: "Burg Maus"
     jp_name: "ネズミ城 (Burg Maus)"
     lat: 50.1586
     lng: 7.7125
     url: "/rheinland-pfalz/burg-maus/"
-    type: "castle"
   - zh_name: "博帕德要塞 (Kastell Bodobrica)"
     en_name: "Kastell Bodobrica"
     jp_name: "ボドブリカ城塞 (Kastell Bodobrica)"
     lat: 50.2319
     lng: 7.5878
     url: "/rheinland-pfalz/kastell-bodobrica/"
-    type: "castle"
   - zh_name: "博帕德 (Boppard)"
     en_name: "Boppard"
     jp_name: "ボッパルト (Boppard)"
     lat: 50.2321
     lng: 7.5850
     url: "/rheinland-pfalz/boppard/"
-    type: "city"
   - zh_name: "史特倫堡 (Burg Sterrenberg)"
     en_name: "Burg Sterrenberg"
     jp_name: "シュテレンベルク城 (Burg Sterrenberg)"
     lat: 50.2119
     lng: 7.6331
     url: "/rheinland-pfalz/burg-sterrenberg/"
-    type: "castle"
   - zh_name: "利本斯坦堡 (Burg Liebenstein)"
     en_name: "Burg Liebenstein"
     jp_name: "リーベンシュタイン城 (Burg Liebenstein)"
     lat: 50.2114
     lng: 7.6347
     url: "/rheinland-pfalz/burg-liebenstein/"
-    type: "castle"
   - zh_name: "馬克斯堡 (Marksburg)"
     en_name: "Marksburg"
     jp_name: "マルクスブルク城 (Marksburg)"
     lat: 50.2717
     lng: 7.6500
     url: "/rheinland-pfalz/marksburg/"
-    type: "castle"
   - zh_name: "菲利普斯堡宮 (Schloss Philippsburg)"
     en_name: "Schloss Philippsburg"
     jp_name: "フィリップスブルク宮殿 (Schloss Philippsburg)"
     lat: 50.2725
     lng: 7.6469
     url: "/rheinland-pfalz/schloss-philippsburg/"
-    type: "castle"
   - zh_name: "馬丁斯宮 (Schloss Martinsburg)"
     en_name: "Schloss Martinsburg"
     jp_name: "マルティンスブルク宮殿 (Schloss Martinsburg)"
     lat: 50.3014
     lng: 7.5997
     url: "/rheinland-pfalz/schloss-martinsburg/"
-    type: "castle"
   - zh_name: "拉內克堡 (Burg Lahneck)"
     en_name: "Burg Lahneck"
     jp_name: "ラーネック城 (Burg Lahneck)"
     lat: 50.3092
     lng: 7.6125
     url: "/rheinland-pfalz/burg-lahneck/"
-    type: "castle"
   - zh_name: "斯托岑費爾斯宮 (Schloss Stolzenfels)"
     en_name: "Schloss Stolzenfels"
     jp_name: "シュトルツェンフェルス城 (Schloss Stolzenfels)"
     lat: 50.3031
     lng: 7.5925
     url: "/rheinland-pfalz/schloss-stolzenfels/"
-    type: "castle"
   - zh_name: "艾倫布萊特斯坦要塞 (Festung Ehrenbreitstein)"
     en_name: "Festung Ehrenbreitstein"
     jp_name: "エーレンブライトシュタイン要塞"
     lat: 50.3644
     lng: 7.6156
     url: "/rheinland-pfalz/festung-ehrenbreitstein/"
-    type: "castle"
     
 saarland:
   - zh_name: "薩爾布魯根 (Saarbrücken)"
@@ -503,7 +435,6 @@ saarland:
     lat: 49.2333
     lng: 7.0000
     url: "/saarland/saarbruecken/"
-    type: "city"
     
 sachsen-anhalt:
   - zh_name: "馬德堡 (Magdeburg)"
@@ -512,14 +443,12 @@ sachsen-anhalt:
     lat: 52.1317
     lng: 11.6392
     url: "/sachsen-anhalt/magdeburg/"
-    type: "city"
   - zh_name: "奎德林堡 (Quedlinburg)"
     en_name: "Quedlinburg"
     jp_name: "クヴェドリンブルク (Quedlinburg)"
     lat: 51.7897
     lng: 11.1433
     url: "/sachsen-anhalt/quedlinburg/"
-    type: "city"
     
 sachsen:
   - zh_name: "德勒斯登 (Dresden)"
@@ -528,35 +457,30 @@ sachsen:
     lat: 51.0504
     lng: 13.7373
     url: "/sachsen/dresden/"
-    type: "city"
   - zh_name: "包岑 (Bautzen)"
     en_name: "Bautzen"
     jp_name: "バウツェン (Bautzen)"
     lat: 51.1815
     lng: 14.4234
     url: "/sachsen/bautzen/"
-    type: "city"
   - zh_name: "哥利茲 (Görlitz)"
     en_name: "Görlitz"
     jp_name: "ゲルリッツ (Görlitz)"
     lat: 51.1528
     lng: 14.9872
     url: "/sachsen/goerlitz/"
-    type: "city"
   - zh_name: "萊比錫 (Leipzig)"
     en_name: "Leipzig"
     jp_name: "ライプツィヒ (Leipzig)"
     lat: 51.3397
     lng: 12.3731
     url: "/sachsen/leipzig/"
-    type: "city"
   - zh_name: "邁森 (Meissen)"
     en_name: "Meissen"
     jp_name: "マイセン (Meissen)"
     lat: 51.1636
     lng: 13.4775
     url: "/sachsen/meissen/"
-    type: "city"
 
 schleswig-holstein:
   - zh_name: "呂貝克 (Lübeck)"
@@ -565,7 +489,6 @@ schleswig-holstein:
     lat: 53.8655
     lng: 10.6866
     url: "/schleswig-holstein/luebeck/"
-    type: "city"
     
 thueringen:
   - zh_name: "耶拿 (Jena)"
@@ -574,11 +497,10 @@ thueringen:
     lat: 50.9272
     lng: 11.5861
     url: "/thueringen/jena/"
-    type: "city"
   - zh_name: "艾爾福特 (Erfurt)"
     en_name: "Erfurt"
     jp_name: "エアフルト (Erfurt)"
     lat: 50.9787
     lng: 11.0328
     url: "/thueringen/erfurt/"
-    type: "city"
+    
