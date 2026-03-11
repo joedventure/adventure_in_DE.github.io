@@ -203,6 +203,18 @@ hessen:
     lat: 50.0531
     lng: 7.8113
     url: "/hessen/burg-nollig/"
+  - zh_name: "阿斯巴赫城堡 (Alsbacher Schloss)"
+    en_name: "Alsbacher Schloss"
+    jp_name: "アルスバッハ城 (Alsbacher Schloss)"
+    lat: 49.7334
+    lng: 8.6273
+    url: "/hessen/alsbacher-schloss/"
+  - zh_name: "法蘭肯斯坦城堡 (Burg Frankenstein)"
+    en_name: "Burg Frankenstein"
+    jp_name: "フランケンシュタイン城 (Burg Frankenstein)"
+    lat: 49.7937
+    lng: 8.6682
+    url: "/hessen/burg-frankenstein/"
     
 mecklenburg-vorpommern:
   - zh_name: "施威林 (Schwerin)"
