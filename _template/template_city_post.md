@@ -13,6 +13,7 @@ permalink: /jp/berlin/berlin-city/ #add /jp or /en infront of /state/city/. If i
 
 ## Berlin1 
 abc
+![測試圖片]({{ site.baseurl }}/_image/test_img.jpg)
 
 ## Berlin2
 abc
