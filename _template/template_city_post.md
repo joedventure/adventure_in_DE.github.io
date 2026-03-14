@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "柏林必去指南" #change title
+title: "xxx歷史與景點介紹" #change title
 state_name: "ベルリン" #check city name translation
 state_id: "berlin" #state_in needs to fit
 show_map: false
