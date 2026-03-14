@@ -9,8 +9,6 @@ lang: zh
 permalink: /bayern/wuerzburg/ 
 ---
 
-柏林歷史與景點介紹
-
 ## 烏茲堡城市歷史 
 ![測試圖片]({{ site.baseurl }}/_image/test_img.jpg)
 烏茲堡是羅曼蒂克大道的起點，也是一座歷史悠久的城市。在遠古，凱爾特人就已經在瑪利亞堡（Festung Marienberg）所在的區域定居。在西元4至5世紀的民族大遷徙浪潮中，阿勒曼尼人（Alemannen）遷移至此。到了6至7世紀，法蘭克人開始東進，將這片土地納入墨洛溫王朝（Merowinger）的版圖中。 
