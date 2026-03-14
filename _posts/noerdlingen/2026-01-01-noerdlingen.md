@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "諾德林根歷史與景點介紹" #change title
-state_name: 巴伐利亞" 
+state_name: "巴伐利亞" 
 state_id: "bayern"
 show_map: false
 slug: noerdlingen 
