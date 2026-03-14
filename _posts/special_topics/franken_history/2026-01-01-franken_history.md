@@ -14,9 +14,7 @@ permalink: /franken_history/
 
 ## 上古時代
 ![Franken-1]({{ site.baseurl }}/_image/franken-1.png)
-<sup><sub>法蘭克王國五世紀中葉<sup><sub>
-
-<sup><sub>擷取自Droysen, Allgemeiner historischer Handatlas  （Bielefeld und Leipzig: Verlag von Velhagen & Klasing, 1886）<sup><sub>
+<sup><sub>法蘭克王國五世紀中葉<br>擷取自Droysen, Allgemeiner historischer Handatlas  （Bielefeld und Leipzig: Verlag von Velhagen & Klasing, 1886）<sup><sub>
 
 法蘭克尼亞地區早在西元前800年左右的青銅器時代就有凱爾特人（Kelten）定居的蹤跡。根據記載，羅馬帝國時期這片美因河流域是日耳曼部落的居住地，其中包括馬科曼尼人（Markomannen），他們在西元前7世紀到3世紀期間被羅馬帝國擊退後向東遷徙，以及後來的赫蒙都人（Hermunduren）。
 
@@ -28,9 +26,7 @@ permalink: /franken_history/
 
 ## 法蘭克王國的崛起與墨洛溫王朝
 ![Franken-2]({{ site.baseurl }}/_image/franken-2.png)
-<sup><sub>法蘭克王國，西元511年。<sup><sub>
-
-<sup><sub>擷取自Droysen, Allgemeiner historischer Handatlas  （Bielefeld und Leipzig: Verlag von Velhagen & Klasing, 1886）<sup><sub>
+<sup><sub>法蘭克王國，西元511年。<br>擷取自Droysen, Allgemeiner historischer Handatlas  （Bielefeld und Leipzig: Verlag von Velhagen & Klasing, 1886）<sup><sub>
 
 起源於萊茵河下游的薩利安法蘭克人在西元358年被羅馬擊敗後，遷至羅馬境內的高盧東北（現比利時圖爾奈）定居。 據載，西元481年薩利安法蘭克人的領袖克洛維一世（Chlodwig I）在征服了鄰近的幾個法蘭克部落後稱王，歷史上的墨洛溫王朝正式登場。
 
