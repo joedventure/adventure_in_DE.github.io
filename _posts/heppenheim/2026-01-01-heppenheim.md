@@ -43,7 +43,7 @@ permalink: /hessen/heppenheim/
 
 此外，2019年，保時捷為了拍攝2020年超級盃廣告，特地選在黑彭海姆取景。你能想像在這座古城的中心飆車是什麼感覺嗎？看看這支廣告就知道了！
 
-https://heppenheim.de/heppenheim-erleben/dreh-in-der-heppenheimer-altstadt/
+https://www.youtube.com/watch?v=537EwXTdipM
 
 ## 美因茨選侯行政大院（Kurmeinzer Amtshof）
 黑彭海姆市中心有一個龐大的美因茨選侯行政大院（Kurmeinzer Amtshof）建築群。據推測，它應該建於1369年的城市大火之後。其中最古老的部分是位於南側的主樓，裡面有哥德式壁畫裝飾的選侯大廳（Kurfürstensaal）。這裡曾舉行過多項隆重的國事活動，如1435年美因茨大主教、選侯兼神聖羅馬帝國總理Dietrich von Erbach向皇帝宣誓效忠的儀式。另外，德國自由民主黨（FDP）也於1948年在這裡成立。
