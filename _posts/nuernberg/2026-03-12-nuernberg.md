@@ -103,14 +103,17 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 
 ## 紐倫堡必吃
 1. Bratwursthäusle
+   
 紐倫堡香腸百年名店，700年前就在聖塞巴都教堂旁邊開始烤了，風味果然不同凡響。濃濃的炭燒味配上風味濃郁的酸菜，非常爽口！
 
 2. Nudeln Studio 山間·蘭州牛肉面
+   
 在德國總是吃不飽嗎？那Nudeln Studio 山間·蘭州牛肉面就是你該來吃麵的地方。
 
 這裡可以免費加麵一碗（2024）。不僅如此，湯頭超級香又清爽。還可以加牛肉片跟辣椒醬到乾麵裡，來個一麵兩吃，絕對是最棒的選擇。
 
 3. Schanzenbräu Schankwirtschaft
+   
 來紐倫堡，怎麼能錯過Schäufele呢？豬肩肉超嫩，上面的皮有夠脆，跟燒臘店的皮一樣。配上香Q口感的馬鈴薯球Klöße實在是太搭了。
 
 馬鈴薯湯配了一個黑麵包，有點鹹。第三道點了一個燉牛肉，配上煎過的Klöße也很搭。
