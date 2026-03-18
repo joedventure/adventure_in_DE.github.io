@@ -463,7 +463,13 @@ rheinland-pfalz:
     lat: 50.3644
     lng: 7.6155
     url: "/mittelrheintal/"
-    
+  - zh_name: "賓根 (Bingen am Rhein)"
+    en_name: "Bingen am Rhein"
+    jp_name: "ビンゲン・アム・ライン (Bingen am Rhein)"
+    lat: 49.9691
+    lng: 7.8922
+    url: "/rheinland-pfalz/bingen/"
+
 saarland:
   - zh_name: "薩爾布魯根 (Saarbrücken)"
     en_name: "Saarbrücken"
