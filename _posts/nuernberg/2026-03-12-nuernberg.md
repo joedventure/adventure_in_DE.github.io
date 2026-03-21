@@ -1,4 +1,4 @@
----
+![PXL_20241220_132437479~2](https://github.com/user-attachments/assets/22f902f7-fd78-47df-8792-948f29f53824)---
 layout: post
 title: "紐倫堡歷史與景點介紹" #change title
 state_name: "巴伐利亞" #check city name translation
@@ -46,6 +46,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 由於紐倫堡的重要歷史地位，納粹黨（NSDAP）在1933年掌權後，將這裡定為全國性黨大會（Reichsparteitag）的舉辦地。二戰後，紐倫堡也成為了審判納粹戰犯的重要場地，紐倫堡大審判便在距市中心不遠的地方進行。為了面對歷史、承擔責任，1993年，紐倫堡在市中心建成了人權大道（The Way of Human Rights）。這條大道豎立著27根柱子，每根柱子上用不同語言刻寫著《世界人權宣言》中的一條條文。這一藝術設計不僅改變了城市的形象，也提醒人們銘記歷史，珍視和平與人權。
 
 ## 聖塞巴都教堂（Sebaldkirche）
+![Sebaldkirche]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Sebaldkirche.jpg)
 聖塞巴都教堂是紐倫堡最古老的市教區教堂（Pfarrkirche）。這座教堂的建造始於1230-40年間，建立在原來的羅馬式教堂基礎上，而兩座壯麗的哥德式塔樓則是直到1379年被建造完成。形成一個具羅馬式元素的歌德式教堂。
 
 從14世紀開始，聖塞巴都教堂便成為紐倫堡市議會教堂（Ratskirche）。與聖勞倫斯教堂不同，直到15世紀末，只有市議會的家族才有權捐贈教堂的固定裝飾品。因此，聖塞巴都教堂擁有大量珍貴的宗教藝術品。這些大多來自宗教改革之前的時代，其中最具歷史意義的就是這座教堂的城市守護聖人聖塞巴德（Stadtpatron Sebald）的墓碑。自14世紀起，聖人的遺骨就被安放在一個精緻的聖物箱中。到了15世紀末，著名鐵匠與雕刻家彼得費舍爾（Peter Vischer）父子決定製作一個青銅外殼來保護聖物箱並突顯其藝術價值，並於1508至1519年完工。
@@ -53,7 +54,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 另外，聖塞巴都教堂內還保存著中世紀德國最重要的彩繪玻璃之一：Kaiserfenster。這扇精美的彩繪玻璃窗由名藝術家Albrecht Dürer、Hans Süß von Kulmbach以及Veit Hirschvogel der Ältere所設計，並描繪了中世紀紐倫堡的三個權力象徵：德國皇帝、班貝格主教，以及霍亨索倫家族的侯爵。來參觀的時候絕對不要錯過！
 
 ## 聖勞倫斯教堂（Lorenzkirche）
-
+![Lorenzkirche]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Lorenzkirche.jpg)
 聖勞倫斯教堂位於佩格尼茲河南邊，1250年左右開始建造。除了宏偉的建築本身，教堂裡面也許多精美的藝術品。
 
 當我們一走進教堂就可以看到懸掛在半空中的木雕藝術品Engelsgruß。這個木雕受Tucher家族所托，於1518年由雕刻家 Veit Stoß完成，描述天使加百列向聖母瑪利亞告知她將受聖神降孕而誕下聖子耶穌。值得一提的是，雖然紐倫堡於1525年後轉為新教，這個木雕依舊待在原位。紐倫堡於1806年合併入巴伐利亞王國後他曾短暫被拿下來，直到1817年才再次被掛回去。1939年二戰爆發後也被拿下來過，直到1952年再回歸原位。
@@ -65,7 +66,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 對以上細節有興趣的脆友們可以上紐倫堡博物館的網站看更多。
 
 ## 聖母教堂（Frauenkirche）
-
+![Frauenkirche]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Frauenkirche.jpg)
 位於紐倫堡主集市廣場的哥德式聖母教堂是該市三座最重要的教堂之一。這座教堂的所在地原本是一座猶太會堂，然而在1349年遭到摧毀，直到1355年，神聖羅馬帝國皇帝查理四世才下令在此地建造聖母教堂，作為皇室的宮廷禮拜堂。雖然他曾計劃將帝國寶器存放於此，但該計劃最終未能實現。
 
 1509年，聖母教堂著名的機械鐘正式安裝完工。每天中午12點，鐘上的人偶舞Männleinlaufen依然上演著七位選帝侯向查理四世致敬的場景，用以紀念1356年頒布的金璽詔書：神聖羅馬帝國皇帝必須由七位選帝侯選出，而被選出來的皇帝必須在紐倫堡召開他的首次帝國會議。這項規定一直持續到1806年神聖羅馬帝國解體為止，可以說是帝國最重要的詔書之一。
@@ -73,18 +74,18 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 此外，聖母教堂也是紐倫堡聖誕市集Christkindlesmarkt的主要活動場地，每年開幕儀式均在這裡舉行，為市集增添了濃厚的節日氣氛。
 
 ## 皇帝堡（Kaiserburg）
-
 在中世紀時期，神聖羅馬帝國的皇帝並非定居於某一城市，而是四處巡遊，以便與封臣會面、主持審判或參與帝國議會。在這些旅途中，皇帝與其宮廷隨行人員通常會駐留於沿途的皇帝行宮（Kaiserpfalzen）。紐倫堡的皇帝堡即為歐洲中世紀最重要的皇帝行宮之一。
 
 在這裡，我們不僅可以看到羅馬式的雙層禮拜堂內，深達47公尺的水井以及高聳入雲的Sinwellturm。此外，城堡的博物館裡有豐富的館藏，以及許多中世紀武器，歷史愛好者千萬不要錯過！
 
 ## 聖靈醫院（Heilig-Geist-Spital）
+![Heilig-Geist-Spital]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Heilig-Geist-Spital.jpg)
 紐倫堡聖靈醫院是城市的地標之一，於1339年正式成立，從火車站走到老城中心的時候絕對不會錯過。神聖羅馬帝國寶器以及基督教聖物命運之矛自1423年起存放在這裡。每年，這些寶物會公開展示一次，供信徒瞻仰。而在皇帝加冕典禮前，帝國寶器會被運至法蘭克福，典禮結束後再送回紐倫堡。現在他們都位於維也納霍夫堡皇宮的珍寶廳。
 
 現在來聖靈醫院參觀，到是可以在裡面的教堂中發現兩個著名的桌形墓（Tischgräber），分別是Konrad Groß和Herdegen Valzner的墓。他們是中世紀紐倫堡兩大家族的代表，也是聖靈醫院的重要贊助人。由於桌形墓經常用來紀念具有重大影響力的宗教或世俗人物，這不僅彰顯了他們的地位，也體現了他們對聖靈醫院發展的深遠貢獻。
 
 ## 紐倫堡黨代會集會場（Reichsparteitagsgelände）
-
+![Reichsparteitagsgelände]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Reichsparteitagsgelände.jpg)
 紐倫堡從1933年至1938年為納粹黨的黨大會集會的地點。在城市的東南近郊，希特勒的建築師Albert Speer自1934年起開始設計未來納粹黨代會集會場的總體規劃，包括多個大廣場，以及齊柏林飛行場（1909年曾有齊柏林飛船在此起降）。20世紀初的古典主義風格在這裡（以及其他各地的納粹建築）被誇張的放大。由於他們認為些建築應該是崇高、強大和令人敬畏的，因此，紐倫堡納粹黨大會場地的設計中缺乏顏色和裝飾元素。另外，司令台（Zeppelintribüne）周圍更是安裝有152 個防空探照燈，每個探照燈直射天空，營造出一個嚴肅的氣氛。
 這裡是現存最大的納粹時期建築物，也是現在文獻中心Dokumentationszentrum的所在地，是探索這片建築群的理想起點。
 
@@ -95,6 +96,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 紐倫堡大審判不僅是對納粹戰犯的司法審判，它的意義更是重要。這次審判第一次確立了戰爭罪、反人類罪和侵略罪的法律基礎，明確的表示個人需要對自己的行為負責，再也不能以服從命令來推卸責任。同時，審判揭露了納粹政權的種種暴行，讓更多人了解歷史的真相，並給受害者帶來一定的正義。此外，它也象徵了國際社會的合作與法治精神，為戰後國際秩序的建立奠定了基礎。這個審判也隨時提醒我們要珍惜和平，防止歷史的重演。這一點，我想不論是在現在或是在未來，對全人類來說都是至關重要的。
 
 ## 紐倫堡玩具博物館（Spielzeugmuseum Nürnberg）
+![Spielzeugmuseum]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Spielzeugmuseum.jpg)
 紐倫堡自中世紀以來就是歐洲著名的玩具之都，特別以精緻的木製玩具和手工藝聞名。隨著工業化的發展，錫製玩具和鐵道模型也更是世界聞名。市中心有一座玩具博物館，展示了各個時期的玩具，涵蓋了各種不同時代所屬的特色，也反映了不同時代的社會變遷與技術發展。
 
 這座博物館的背後有一段有趣的故事：它的收藏來自烏茲堡收藏家Lydia和Paul Bayer。他們對玩具的熱愛傳給了女兒Lydia，後來更是寫了一篇有關歐洲娃娃屋的論文，獲得了藝術史博士學位。1966年，Lydia意識到父母藏品的價值，便開始與紐倫堡市合作，並協助於1971年開設了這座玩具博物館。
@@ -103,7 +105,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 
 ## 紐倫堡必吃
 ***Bratwursthäusle***
-   
+![Bratwursthäusle]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Bratwurst.jpg)
 紐倫堡香腸百年名店，700年前就在聖塞巴都教堂旁邊開始烤了，風味果然不同凡響。濃濃的炭燒味配上風味濃郁的酸菜，非常爽口！
 
 ***Nudeln Studio 山間·蘭州牛肉面***
