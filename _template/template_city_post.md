@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "xxx歷史與景點介紹" #change title
+title: "xxx歷史與景點介紹" #change title/An Introduction to [City Name]'s History and Attractions/[城市日文名] の歴史と観光スポットの紹介 
 state_name: "ベルリン" #check city name translation
 state_id: "berlin" #state_in needs to fit
 show_map: false
