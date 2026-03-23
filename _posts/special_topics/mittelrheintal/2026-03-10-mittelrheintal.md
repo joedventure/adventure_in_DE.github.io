@@ -2,6 +2,7 @@
 layout: post
 show_map: false
 title: "中萊茵河谷城堡巡禮"
+slug: mittelrheintal
 lang: zh
 permalink: /mittelrheintal/
 ---
