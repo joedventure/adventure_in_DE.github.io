@@ -111,13 +111,13 @@ permalink: /franken_history/
 
 1. 西邊的洛林公國（Herzogtum Lothringen），其前身是中法蘭克王國，經歷五次分裂後這個地區部分併入東法蘭克王國。
    
-3. 北邊的薩克森公國（Herzogtum Sachsen）
+2. 北邊的薩克森公國（Herzogtum Sachsen）
    
-4. 南邊的巴伐利亞公國（Herzogtum Baiern）
+3. 南邊的巴伐利亞公國（Herzogtum Baiern）
    
-5. 西南邊的施瓦本公國（Herzogtum Schwaben）
+4. 西南邊的施瓦本公國（Herzogtum Schwaben）
    
-6. 位於中間的法蘭克尼亞公國（Herzogtum Franken）
+5. 位於中間的法蘭克尼亞公國（Herzogtum Franken）
 
 在9世紀，法蘭克尼亞地區主要有兩大家族：康拉德家族（Konradiner）與巴本堡家族（Babenberger）。康拉德家族原為法蘭克王國的地方貴族之一，主要的勢力範圍在特里爾（Trier）。在卡洛林王朝的時候他們控制的地區漸漸東移到蘭河（Die Lahn）附近以及黑森與圖林根地區，並且是卡洛林王朝，時任東法蘭克國王阿努爾夫（Arnolf von Kärnten）的近親。巴本堡家族的發跡地則是在東邊的圖林根與巴伐利亞交界，並在巴本堡（Babenburg，後來發展成現在的班貝格Bamberg），建立勢力。這兩大家族為了增加自己家族對法蘭克尼亞的控制，於是爭執逐漸升溫。
 
