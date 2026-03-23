@@ -244,7 +244,7 @@ In 1320, Sterrenberg fell under the control of the Archbishopric of Trier and be
 
 As Sterrenberg's strategic position was replaced by the neighboring Mouse Castle and the bloodlines of both families went extinct in the 15th century, these two castles gradually became ruins. In the 19th century, both castles were owned by Prussia. Sterrenberg came under the management of the State of Rhineland-Palatinate in 1945, and reconstruction began in 1968. Liebenstein remains owned by the descendants of the Baron von Preuschen family, and reconstruction began in the 1970s. Today, both castles have hotels with a medieval atmosphere where you can experience the power games of that era.
 
-**There is another local legend about Sterrenberg and Liebenstein.*** After reading it, I think it sounds like a soap opera plot. Let me share it with you:
+***There is another local legend about Sterrenberg and Liebenstein.*** After reading it, I think it sounds like a soap opera plot. Let me share it with you:
 
 Long ago, two brothers from Boppard Castle, Heinrich and Konrad, both fell in love with their childhood friend Hildegard. Unexpectedly, Hildegard's heart belonged to the younger brother, so the honest older brother painfully chose to step aside. To ensure both brothers had a place to live, their wealthy father built two adjacent castles for them on the opposite bank of the Rhine. However, the older brother soon left to join the Crusades to escape the pain in his heart.
 
