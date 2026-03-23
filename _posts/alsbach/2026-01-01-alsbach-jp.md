@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "アルスバッハ城の歴史と観光スポットの紹介 " 
-state_name: "Hessen" 
+state_name: "ヘッセン州" 
 state_id: "hessen" 
 show_map: false
 slug: alsbacher-schloss
