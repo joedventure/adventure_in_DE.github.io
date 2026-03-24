@@ -87,6 +87,7 @@ permalink: /bayern/nuernberg/ #add /jp or /en infront of /state/city/. If in zh,
 ## 紐倫堡黨代會集會場（Reichsparteitagsgelände）
 ![Reichsparteitagsgelände]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Reichsparteitagsgelände.jpg)
 紐倫堡從1933年至1938年為納粹黨的黨大會集會的地點。在城市的東南近郊，希特勒的建築師Albert Speer自1934年起開始設計未來納粹黨代會集會場的總體規劃，包括多個大廣場，以及齊柏林飛行場（1909年曾有齊柏林飛船在此起降）。20世紀初的古典主義風格在這裡（以及其他各地的納粹建築）被誇張的放大。由於他們認為些建築應該是崇高、強大和令人敬畏的，因此，紐倫堡納粹黨大會場地的設計中缺乏顏色和裝飾元素。另外，司令台（Zeppelintribüne）周圍更是安裝有152 個防空探照燈，每個探照燈直射天空，營造出一個嚴肅的氣氛。
+
 這裡是現存最大的納粹時期建築物，也是現在文獻中心Dokumentationszentrum的所在地，是探索這片建築群的理想起點。
 
 ## 紐倫堡大審判博物館（Memorium Nürnberger Prozesse）
