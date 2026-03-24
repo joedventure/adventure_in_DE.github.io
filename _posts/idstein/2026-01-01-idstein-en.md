@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Introduction to Idstein's History and Attractions" 
-state_name: "Hessen"
+state_name: "Hesse"
 state_id: "hessen" 
 show_map: false
 slug: idstein
