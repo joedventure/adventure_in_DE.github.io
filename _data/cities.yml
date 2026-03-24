@@ -174,8 +174,8 @@ hessen:
     lng: 8.8986
     url: "/hessen/hirschhorn/" 
   - zh_name: "布羅伊貝格 (Breuberg)"
-    en_name: "Breuberg"
-    jp_name: "ブロイベルク (Breuberg)"
+    en_name: "Breuberg Castle"
+    jp_name: "ブロイベルク城 (Breuberg)"
     lat: 49.8189
     lng: 9.0347
     url: "/hessen/breuberg/"
@@ -228,7 +228,7 @@ hessen:
     lng: 8.6273
     url: "/hessen/alsbacher-schloss/"
   - zh_name: "法蘭肯斯坦城堡 (Burg Frankenstein)"
-    en_name: "Burg Frankenstein"
+    en_name: "Frankenstein Castle"
     jp_name: "フランケンシュタイン城 (Burg Frankenstein)"
     lat: 49.7937
     lng: 8.6682
