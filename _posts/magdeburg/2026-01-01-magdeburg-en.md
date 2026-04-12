@@ -10,7 +10,7 @@ permalink: /en/sachsen-anhalt/magdeburg/
 ---
 
 ## History of Magdeburg
-***The Founding of Magdeburg and the Medieval Metropolis of Trade***
+### ***The Founding of Magdeburg and the Medieval Metropolis of Trade***
 
 Located on the banks of the Elbe River, Magdeburg, the capital of Saxony-Anhalt, is an ancient city with over 1,200 years of history. Its past carries multiple chapters of German history, including the era of the East Frankish Kingdom, the German eastward expansion, the Reformation, the industrial age, the era of totalitarianism, and the East German period, making it a microcosm of German history.
 
@@ -20,7 +20,7 @@ In 1035, Magdeburg was granted the right to hold trade fairs and gradually devel
 
 With the development of trade, the operation of the city itself became highly regulated. The Magdeburg Rights (Magdeburger Recht), established by Otto the Great, regulated market operations, trade taxes, and property ownership, serving as the legal basis for local rulers to grant internal autonomy to towns and villages. The Magdeburg Rights can be considered one of the most important laws in Central Europe during the Middle Ages and spread widely throughout Europe, becoming the foundation for the establishment of many later towns.
 
-***The Reformation and the Fall of the City***
+### ***The Reformation and the Fall of the City***
 
 The year 1524 can be considered the year Magdeburg turned from Catholicism to Protestantism. That year, Martin Luther visited Magdeburg to promote his ideas of the Reformation at the invitation of his former classmate, the then-mayor of Magdeburg. After this, only the Cathedral remained Catholic. Following the death of the Archbishop of Magdeburg in 1545, the Cathedral was closed for 20 years until it reopened in 1567 as a Protestant church.
 
@@ -30,7 +30,7 @@ This war had a devastating impact on German cities in general, but it was partic
 
 In 1648, with the signing of the Peace of Westphalia (Westfälischer Friede), the Thirty Years' War largely came to an end, and the ruling power over Magdeburg was transferred to the Electorate of Brandenburg. However, it was not until 1680 that the Electorate of Brandenburg truly gained control of Magdeburg, secularizing it into the Duchy of Magdeburg (Herzogtum Magdeburg) and incorporating it into the territory of the Electorate of Brandenburg. This administrative unit existed until 1806, when it was dissolved due to Napoleon's conquest.
 
-***Industrial Stronghold and Transformation after German Reunification***
+### ***Industrial Stronghold and Transformation after German Reunification***
 
 Following Napoleon's defeat, Magdeburg returned to the hands of the Kingdom of Prussia in 1814. During the wave of industrialization in the 19th century, Magdeburg rose rapidly to become a stronghold for mechanical engineering and metal processing. During World War II, due to its importance as a military industrial base, the city became a production center for weapons and military supplies; the refineries in the outskirts were primary targets for Allied air raids. In January 1945, a large-scale bombing by the British Royal Air Force destroyed most of the buildings in the city center.
 
