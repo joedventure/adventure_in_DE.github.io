@@ -10,7 +10,7 @@ permalink: /en/bayern/nuernberg/
 ---
 
 ## History of Nuremberg
-***Origins and the House of Hohenzollern***
+### ***Origins and the House of Hohenzollern***
 
 Nuremberg is the second-largest city in Bavaria and the largest in the Franconia region. It boasts a long history dating back to 1050. Although Nuremberg was established later than some neighboring cities, it became a vital trade and cultural hub of the Holy Roman Empire, often referred to as the empire's "unofficial capital."
 
@@ -24,7 +24,7 @@ Frederick Barbarossa continued these plans, expanding Nuremberg Castle into an I
 
 In 1192, after the Raabs line ended, Emperor Henry VI granted the title of Burgrave to a member of the then-obscure Hohenzollern family (who would later rise to dominate Germany). However, the Burgraves' power was gradually curtailed as administrative and judicial authority outside the castle was transferred to the Imperial Caretaker (Reichsschultheiß), representing the Emperor. The interaction between the Burgraves, the Imperial Caretaker, and the later City Council profoundly shaped Nuremberg's development.
 
-***Imperial Free City and Self-Governance***
+### ***Imperial Free City and Self-Governance***
 
 In 1219, Emperor Frederick II issued the famous "Great Letter of Freedom" (Großer Freiheitsbrief), expanding Nuremberg's market rights, granting tax collection authority, and declaring the Emperor as the city's sole protector. This made Nuremberg an Imperial Free City, directly subordinate to the Emperor.
 
@@ -34,7 +34,7 @@ In 1411, Burgrave Frederick VI of the House of Hohenzollern was appointed Govern
 
 The influence of the third power, the Imperial Caretaker (Reichsschultheiß), also weakened through the City Council's efforts. Through a series of privileges (such as high jurisdiction granted in 1320), Nuremberg’s autonomy grew. By 1427, when the council acquired the title of Burgrave, the office of the Imperial Caretaker also effectively fell under its control. Thus, the City Council finally achieved absolute control over the city.
 
-***City of Peace and Human Rights***
+### ***City of Peace and Human Rights***
 
 Nuremberg entered its Golden Age during the 15th and 16th centuries. Thanks to prosperous trade, it was said that Nuremberg’s wealth rivaled that of the entire Kingdom of Bohemia. In 1423, the Emperor entrusted the Imperial Regalia (Reichskleinodien) to Nuremberg for safekeeping, earning the city the reputation of the "Empire's Treasury" and the "unofficial capital."
 
@@ -104,17 +104,17 @@ There is a charming story behind the museum: its collection originated from the 
 Additionally, near the museum on Weißgerbergasse, you can find Nuremberg's largest ensemble of half-timbered houses. No visit to Nuremberg is complete without seeing this area.
 
 ## Must-Eat in Nuremberg
-***Bratwursthäusle***
+### ***Bratwursthäusle***
 ![Bratwursthäusle]({{ site.baseurl }}/_image/Nürnberg/Nürnberg_Bratwurst.jpg)
 A legendary hundred-year-old Nuremberg sausage shop that has been grilling right next to St. Sebald Church for 700 years. The flavor is truly extraordinary! The intense charcoal aroma paired with flavorful sauerkraut is incredibly refreshing.
 
-***Nudeln Studio***
+### ***Nudeln Studio***
 
 Still feeling hungry in Germany? Then Nudeln Studio is the place to go.
 
 You can get a free refill of noodles here (as of 2024). Not only that, but the broth is incredibly fragrant and light. You can also add beef slices and chili sauce to dry noodles for a "one-noodle-two-ways" experience—definitely the best choice.
 
-***Schanzenbräu Schankwirtschaft***
+### ***Schanzenbräu Schankwirtschaft***
 
 How can you visit Nuremberg without trying Schäufele? The pork shoulder is incredibly tender, and the skin is so crispy it rivals Cantonese roast meats. It pairs perfectly with the chewy, fragrant potato dumplings (Klöße).
 
