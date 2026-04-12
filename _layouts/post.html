@@ -139,33 +139,39 @@ layout: default
         const headings = document.querySelectorAll('.post-content h2, .post-content h3');
 
         if (headings.length > 0) {
-            tocContainer.style.display = 'table'; 
+          tocContainer.style.display = 'table'; 
     
-            // 用來計算 h2 的編號（1, 2, 3...）
-            let h2Index = 0;
+          let h2Count = 0; // 從 0 開始計數
+          let h3Count = 0; // 從 0 開始計數
 
-            headings.forEach((heading, index) => {
-              const id = `toc-anchor-${index}`;
-              heading.setAttribute('id', id);
-    
-              const li = document.createElement('li');
-              const a = document.createElement('a');
-              a.href = `#${id}`;
+          headings.forEach((heading) => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            let id;
 
-              if (heading.tagName.toLowerCase() === 'h2') {
-                  h2Index++;
-                  a.textContent = h2Index + ". " + heading.textContent;
-                  // 貼上主標題的標籤
-                  li.classList.add('toc-h2'); 
-              } else {
-                  a.textContent = heading.textContent;
-                  // 貼上子標題的標籤
-                  li.classList.add('toc-h3'); 
-              }
+            if (heading.tagName.toLowerCase() === 'h2') {
+              // 主標題使用 spot-0, spot-1...
+              id = `spot-${h2Count}`;
+              // 目錄顯示文字：(0+1). 標題 = 1. 標題
+              a.textContent = (h2Count + 1) + ". " + heading.textContent;
+              li.classList.add('toc-h2');
+              h2Count++;
+            } else {
+              // 副標題使用 anchor-0, anchor-1...
+              id = `anchor-${h3Count}`;
+              a.textContent = heading.textContent;
+              li.classList.add('toc-h3');
+              h3Count++;
+            }
 
-              li.appendChild(a);
-              tocList.appendChild(li);
-          });
+            // 設置標題的 ID 與目錄超連結
+            heading.setAttribute('id', id);
+            a.href = `#${id}`;
+
+            li.appendChild(a);
+            tocList.appendChild(li);
+        });
+    }
             if (tocToggle) {
                 tocToggle.addEventListener('click', function() {
                     const isHidden = tocList.style.display === 'none';
