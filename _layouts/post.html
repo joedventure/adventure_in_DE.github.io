@@ -12,10 +12,9 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
-{% endif %} {% comment %} <-- 這裡原本漏掉閉合了 {% endcomment %}
+{% endif %} 
 
 <style>
-    /* ... 您的樣式內容 ... */
     .post-header { margin-bottom: 30px; }
     .state-badge { display: inline-block; background: #e9ecef; padding: 4px 12px; border-radius: 20px; font-size: 0.9em; color: #495057; margin-bottom: 10px; }
     .info-row { display: flex; gap: 20px; align-items: flex-start; margin: 20px 0; }
@@ -90,17 +89,40 @@ layout: default
         const tocList = document.getElementById('markdown-toc');
         const tocContainer = document.getElementById('toc-container');
         const tocToggle = document.getElementById('toc-toggle');
-        const headings = document.querySelectorAll('.post-content h2');
-        
+        // 同時選取 h2 與 h3 標籤
+        const headings = document.querySelectorAll('.post-content h2, .post-content h3');
+
         if (headings.length > 0) {
             tocContainer.style.display = 'table'; 
+    
+            // 用來計算 h2 的編號（1, 2, 3...）
+            let h2Index = 0;
+
             headings.forEach((heading, index) => {
+                // 為文章中的每一個標題設置 ID 供跳轉
                 const id = `spot-${index}`;
                 heading.setAttribute('id', id);
+        
                 const li = document.createElement('li');
                 const a = document.createElement('a');
                 a.href = `#${id}`;
-                a.textContent = (index + 1) + ". " + heading.textContent;
+
+                // 判斷當前標籤是 H2 還是 H3
+                if (heading.tagName.toLowerCase() === 'h2') {
+                    h2Index++;
+                    // 主標題：加粗 + 數字編號
+                    a.textContent = h2Index + ". " + heading.textContent;
+                    li.style.fontWeight = "bold";
+                    li.style.marginTop = "8px";
+                } else {
+                    // 子標題 (H3)：縮排 + 較小字體 + 不加數字編號
+                    a.textContent = heading.textContent;
+                    li.style.paddingLeft = "20px"; // 關鍵縮排
+                    li.style.fontSize = "0.9em";
+                    li.style.listStyleType = "none";
+                    li.style.color = "#555";
+                }
+
                 li.appendChild(a);
                 tocList.appendChild(li);
             });
