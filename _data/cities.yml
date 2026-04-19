@@ -69,6 +69,12 @@ berlin:
     lat: 52.52
     lng: 13.405
     url: "/berlin/berlin-city/"
+  - zh_name: "柏林-斯潘道 (Berlin-Spandau)"
+    en_name: "Berlin-Spandau"
+    jp_name: "ベルリン＝シュパンダウ (Berlin-Spandau)"
+    lat: 52.5353
+    lng: 13.1977
+    url: "/berlin/berlin-spandau/"
 
 brandenburg:
   - zh_name: "奧得河畔法蘭克福 (Frankfurt Oder)"
