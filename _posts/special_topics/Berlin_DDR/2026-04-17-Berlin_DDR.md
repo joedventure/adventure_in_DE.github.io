@@ -159,7 +159,7 @@ permalink: /berlin_ddr/
 此外，在壁畫上的柱子頂端還立著由藝術家Fritz Kühn創作的1:1比例的史普尼克衛星模型，作為蘇聯科技的象徵。
 
 ### 國際電影院（Kino International）與《當代人們的生活》*Aus dem Leben der heutigen Menschen*
-![Kino International]({{ site.baseurl }}/_image/Berlin_DDR/Kino International,jpg)
+![Kino International]({{ site.baseurl }}/_image/Berlin_DDR/Kino International.jpg)
 ![Aus dem Leben der heutigen Menschen]({{ site.baseurl }}/_image/Berlin_DDR/Aus dem Leben der heutigen Menschen.jpg)
 
 1963年開幕，由建築師Josef Kaiser設計的國際電影院（Kino International）是柏林最具代表性的現代主義建築之一，它的完工也象徵著東德政府試圖擺脫史達林時代沉重的建築風格，轉向接軌西方當代的簡潔美學。其懸浮式鋼骨構造與二樓向外延伸九公尺的玻璃帷幕大廳，營造出輕盈且開放的空間感。
