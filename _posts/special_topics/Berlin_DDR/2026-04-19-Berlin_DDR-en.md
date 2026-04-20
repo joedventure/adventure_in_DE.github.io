@@ -11,7 +11,7 @@ EN version
 
 
 ## Museum Berlin-Karlshorst
-![Brömserburg]({{ site.baseurl }}/_image/Mittelrheintal/Rüd_Brömserburg.jpg)
+![Museum Berlin-Karlshorst]({{ site.baseurl }}/_image/Berlin_DDR/Museum_Karlshorst.jpg)
 
 The European theater of World War II began on September 1, 1939, with the German invasion of Poland and ended in 1945 with Germany's unconditional surrender. However, different countries define the end date of the war in Europe differently.
 
@@ -26,7 +26,7 @@ The different names represent different narratives and echo the changes in the E
 ## Monuments and Statues
 
 ### Soviet War Memorial Treptow (Sowjetisches Ehrenmal Treptow)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Sowjetisches Ehrenmal Treptow]({{ site.baseurl }}/_image/Berlin_DDR/Ehrenmal_Treptow.jpg)
 
 War brings destruction, and countless lives were lost in this catastrophe. To mourn the soldiers who fell in WWII, the Soviet government established four major memorials in Berlin, of which the Soviet War Memorial in Treptower Park is the largest.
 
@@ -37,7 +37,7 @@ The entrance to the memorial park is a large triumphal arch. After walking throu
 There are 16 sarcophagi on both sides of the park, engraved with reliefs depicting scenes from the Great Patriotic War and accompanied by quotes from Stalin. Furthermore, while there are five burial areas around the main statue, they are primarily symbolic; the actual graves of more than 7,000 soldiers are distributed more discreetly around the edges of the park.
 
 ### Soviet War Memorial Tiergarten (Sowjetisches Ehrenmal Tiergarten)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Sowjetisches Ehrenmal Tiergarten]({{ site.baseurl }}/_image/Berlin_DDR/Ehrenmal_Tiergarten.jpg)
 
 Another Soviet War Memorial is located in the Großer Tiergarten, not far from the Brandenburg Gate and reachable within a ten-minute walk.
 
@@ -46,7 +46,7 @@ As the first Soviet memorial in the center of Berlin, it was inaugurated as earl
 Behind the memorial is a small park where the graves of more than 2,000 fallen soldiers are located. The former guardhouse has been installed with display boards that introduce visitors to Berlin's Soviet memorials and other details about WWII, serving as a warning to future generations.
 
 ### Ernst Thälmann Memorial (Ernst-Thälmann-Denkmal)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Denkmal_Thälmann]({{ site.baseurl }}/_image/Berlin_DDR/Denkmal_Thälmann.jpg)
 
 The communist politician Ernst Thälmann was born in Hamburg, Germany. He served as a member of the Hamburg Parliament representing the Communist Party of Germany (KPD) from 1919 to 1933 and as a member of the Reichstag from 1924 to 1933. He became the chairman of the KPD in 1925 and ran for the Reich presidency twice, in 1925 and 1932. Shortly after the Nazis took power in early March 1933, Thälmann was arrested and imprisoned in various prisons for 11 years without any trial. On August 18, 1944, by Hitler's order, Thälmann was sent to the Buchenwald concentration camp and murdered.
 
@@ -55,7 +55,7 @@ To commemorate the 100th anniversary of Thälmann's birth, the East German leade
 ## Socialist Murals and Architecture
 
 ### *Aufbau der Republik* (Construction of the Republic)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Aufbau der Republik]({{ site.baseurl }}/_image/Berlin_DDR/Aufbau der Republik.jpg)
 
 On the northeast colonnade of the German Federal Ministry of Finance building, there is a famous mural titled Aufbau der Republik (Construction of the Republic), designed by artist Max Lingner and completed in collaboration with 14 painters from Meissen Porcelain. Originally titled "The Significance of Peace for the Cultural Development of Humanity and the Necessity of Struggling for It," the mural underwent multiple revisions at the request of East German leaders. It eventually became a propaganda piece showcasing the rise of the working class.
 
@@ -68,7 +68,8 @@ The building was severely damaged during WWII but was quickly reconstructed afte
 After German reunification, it served as the headquarters of the Treuhandanstalt (responsible for privatizing East German enterprises) until 1994. In 1992, the building was named the Detlev Rohwedder House in honor of the Treuhand chairman who was assassinated by the RAF in 1991. Since 1999, it has served as the office of the Federal Ministry of Finance. 
 
 ### *Aus der Geschichte der deutschen Arbeiterbewegung* (From the History of the German Workers' Movement)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Berlin_ESMT]({{ site.baseurl }}/_image/Berlin_DDR/Berlin_ESMT.jpg)
+![Aus der Geschichte der deutschen Arbeiterbewegung]({{ site.baseurl }}/_image/Berlin_DDR/Aus der Geschichte der deutschen Arbeiterbewegung.jpg)
 
 Students and alumni of the European School of Management and Technology (ESMT) know that the school building was formerly the State Council Building (Staatsratsgebäude) of East Germany, a position equivalent to today's Federal Chancellery. It was the first new government building constructed in Berlin after WWII, built on the ruins of the bombed Royal Palace (Stadtschloss).
 
@@ -83,7 +84,8 @@ Another highlight is the banquet hall on the second floor. Once the largest room
 The work accurately reproduces the GDR emblem, including the hammer, rye, and compass—symbolizing workers, farmers, and intellectuals. This mosaic is the only piece of art in the building truly integrated with the architecture. Although it lost its political function after the collapse of East Germany, it has been preserved in its entirety due to its historical and artistic value. There is also a mechanism to cover it with a curtain when necessary to suit modern usage.
 
 ### *Unser Leben* (Our Life)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Unser Leben]({{ site.baseurl }}/_image/Berlin_DDR/Unser Leben.jpg)
+![Haus des Lehrers]({{ site.baseurl }}/_image/Berlin_DDR/Haus des Lehrers.jpg)
 
 Walter Womacka was one of the most representative artists of East Germany. He served as the Vice President of the Association of Visual Artists of the GDR and became a member of the Academy of Arts in 1968. Because he was strongly supported by the East German leader Walter Ulbricht, Womacka's works can be seen in Berlin and many parts of the former GDR.
 
@@ -92,13 +94,15 @@ The mosaic mural on the exterior of the Haus der Lehrers (House of the Teacher) 
 As for the Haus der Lehrers itself, its predecessor was the Teacher's Association House inaugurated in 1908. The site has deep historical significance: in February 1919, it held memorial services for the murdered communist leaders Rosa Luxemburg and Karl Liebknecht; in 1920, the KPD and the USPD announced their merger here. It was perhaps because the building had such strong left-wing political associations that it became one of the first high-rise buildings completed after WWII.
 
 ### *Der Mensch überwindet Zeit und Raum* (Man Overcomes Time and Space)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Der Mensch überwindet Zeit und Raum]({{ site.baseurl }}/_image/Berlin_DDR/Der Mensch überwindet Zeit und Raum.jpg)
 
 The copper relief Der Mensch überwindet Zeit und Raum (Man Overcomes Time and Space), located on the Haus des Reisens (House of Travel), is another of Walter Womacka's works. The main subject features a young couple and an astronaut. Surrounding them are various scenic images, such as ships on water, trees, birds, and the sun. This reflects the socialist commitment to progress in science and technology, suggesting that humanity can transcend the limits of time and space, venturing into the cosmos as pioneers and bringing that beauty back to the world.
 
 Before German reunification, the Haus des Reisens served as the headquarters of the GDR State Travel Agency and the offices of Interflug (the East German national airline). The ground floor housed ticket counters for domestic and international flights and trains, as well as a 24-hour registration office for foreigners and a currency exchange. Today, the building houses a nightclub and a gym.
 
 ### Fountain of Friendship between Peoples (Brunnen der Völkerfreundschaft)
+![Brunnen der Völkerfreundschaft]({{ site.baseurl }}/_image/Berlin_DDR/Brunnen der Völkerfreundschaft.jpg)
+
 Those who frequent Alexanderplatz are likely impressed by the large fountain in the center of the square. Originally named the Brunnen der Völkerfreundschaft (Fountain of Friendship between Peoples), it was created by Womacka between 1969 and 1970 during the redesign of the square.
 
 The fountain stands 6.20 meters high and is crafted from forged copper, glass, ceramics, and enamel. It consists of an inner and an outer pool. The outer pool is a massive circular basin with a diameter of 23 meters. The inner section features 17 copper columns of varying heights arranged in a spiral, each topped with a diamond-shaped copper plate. Water gushes from the highest point, cascading down the 17 plates like a spiral into the inner pool, and then flows into the outer pool through outlets on the inner wall. The outer wall of the inner pool is decorated with motifs of flora, fauna, and folk-style imagery of peace.
@@ -106,7 +110,8 @@ The fountain stands 6.20 meters high and is crafted from forged copper, glass, c
 Through this downward-spiraling flow of water, the fountain vividly conveys the concept of universal friendship, using the continuous flow as a symbol of friendship extending from this point to the rest of the world.
 
 ### *Die Presse als Organisator* (The Press as Organizer)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Haus des Berliner Verlages]({{ site.baseurl }}/_image/Berlin_DDR/Haus des Berliner Verlages.jpg)
+![Die Presse als Organisator]({{ site.baseurl }}/_image/Berlin_DDR/Die Presse als Organisator.jpg)
 
 On the northwest side of Alexanderplatz, we can find an outstanding representative of GDR Socialist Modernism (Sozialistische Moderne): the Haus des Berliner Verlages (Berlin Publishing House) and its adjacent Pressecafé (Press Café).
 
@@ -117,7 +122,7 @@ The Pressecafé, an extension of the main building, is a two-story structure. It
 As a famous example of Socialist Modernist architecture, a mural was indispensable. On the exterior wall of the Pressecafé is an enamel tile mural by Willi Neubert titled Die Presse als Organisator (The Press as Organizer). It vividly depicts scenes of publishing and editing in the GDR, as well as people reading the news. Looking closely, one can find a hidden portrait of Karl Marx. Interestingly, after reunification, this ideologically charged mural was covered by a steakhouse sign for 29 years! It was not until 2021 that it was finally restored and reappeared before the public.
 
 ### Rathaus-Passagen (Town Hall Arcades)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Rathaus-Passagen]({{ site.baseurl }}/_image/Berlin_DDR/Rathaus-Passagen.jpg)
 
 The Rathaus-Passagen near Alexanderplatz is a personal favorite. This massive complex complements the adjacent Rotes Rathaus (Red Town Hall), and passing by it always evokes a curious mix of modern and retro vibes.
 
@@ -128,13 +133,8 @@ Architecturally, the Rathaus-Passagen adopted a mixed-use concept with living sp
 Regarding public art, many early pieces have disappeared, but the Bauarbeiterdenkmal (Construction Workers' Memorial) created by sculptor Gerhard Rommel in 1970 remains on the north side of the building. This bronze relief specifically depicts female engineers, reflecting the social values of gender equality promoted by the GDR at the time.
 
 ### Karl-Marx Allee
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
-這部分關於馬克思大道及其標誌性建築的內容，同樣為您翻譯為英文與日文版本，並嚴格保持 Markdown 結構：
-
-English Version
-Karl-Marx-Allee
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Karl-Marx Allee]({{ site.baseurl }}/_image/Berlin_DDR/Karl-Marx Allee.jpg)
+![Karl-Marx Allee2]({{ site.baseurl }}/_image/Berlin_DDR/Karl-Marx Allee2.jpg)
 
 Another place in Berlin I really like is Karl-Marx-Allee. The road is incredibly wide, and the buildings on both sides are so massive that walking here always feels refreshing and grand.
 
@@ -147,7 +147,8 @@ There are many classic Soviet-style buildings along Karl-Marx-Allee, but I find 
 Ironically, in June 1953, construction workers on the Stalinallee site were the first to strike in protest against the government's forced increase in work quotas. This protest quickly evolved into the June 17th Uprising that swept across East Germany, only to be suppressed by Soviet tanks. It is a profound historical irony that this boulevard, symbolizing the workers' dream, became the site of one of the darkest chapters in East German history.
 
 ### Café Moskau and *Aus dem Leben der Völker der Sowjetunion* (From the Life of the Peoples of the Soviet Union)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Café Moskau]({{ site.baseurl }}/_image/Berlin_DDR/Café Moskau.jpg)
+![Aus dem Leben der Völker der Sowjetunion]({{ site.baseurl }}/_image/Berlin_DDR/Aus dem Leben der Völker der Sowjetunion.jpg)
 
 Café Moskau is an iconic building symbolizing the brotherhood between the GDR and the Soviet Union. Opened on January 18, 1964, it featured specialties from various Soviet republics and housed a bar, café, nightclub, and handicraft shop. While it was a high-end social venue, it also served as a hub for black market activities and espionage. After being listed as a historical monument in 1989, the café ceased restaurant operations in 1994 and now serves as a venue for various events and conferences.
 
@@ -158,7 +159,8 @@ This 135-square-meter work uses soft beige, white, and gold tones. The backgroun
 Additionally, a 1:1 scale model of the Sputnik satellite, created by artist Fritz Kühn, stands atop a pillar on the mural as a symbol of Soviet scientific achievement.
 
 ### Kino International and *Aus dem Leben der heutigen Menschen* (From the Life of People Today)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Kino International]({{ site.baseurl }}/_image/Berlin_DDR/Kino International.jpg)
+![Aus dem Leben der heutigen Menschen]({{ site.baseurl }}/_image/Berlin_DDR/Aus dem Leben der heutigen Menschen.jpg)
 
 Opened in 1963 and designed by architect Josef Kaiser, Kino International is one of Berlin's most representative modernist buildings. Its completion symbolized the GDR government's attempt to move away from the heavy architectural style of the Stalin era toward the clean aesthetics of contemporary Western design. Its suspended steel structure and the second-floor glass lobby extending nine meters outward create a sense of lightness and openness.
 
@@ -173,7 +175,7 @@ Besides the cinema itself, the reliefs on three sides of the exterior wall title
 However, the creation of the reliefs was not without challenges. They were originally designed by sculptor Waldemar Grzimek, but he refused to move to East Berlin before the Wall was built due to his dissatisfaction with the SED's rigid art policies. The work was completed by his team members Karl-Heinz Schamal and Hubert Schiefelbein. When the theater opened in 1963, only the reliefs on the west side were finished. Thanks to funding from the German Foundation for Monument Protection, these precious reliefs have been preserved to this day.
 
 ### Frankfurter Tor
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Frankfurter Tor]({{ site.baseurl }}/_image/Berlin_DDR/Frankfurter Tor.jpg)
 
 The original location of Frankfurter Tor was near today's U5 Weberwiese station. It was one of the gates of the Berlin Customs Wall, named after the military road that began there and led to Frankfurt (Oder). In 1716, Frankfurter Tor was a wooden gate; it was rebuilt as a stone gate in 1802 and demolished in 1867 to make room for urban expansion. During World War II, the area was severely damaged by the Soviet Red Army's offensive in the spring of 1945 and previous aerial bombings. After the war, the ruins were completely reconstructed between 1950 and 1956 into a large residential complex 7 to 9 stories high. The current Frankfurter Tor was renamed in 1957 as a tribute to the old city gate.
 
@@ -182,7 +184,7 @@ Frankfurter Tor was designed by architect Hermann Henselmann in 1956, inspired b
 Beyond its grand exterior, the north and south towers house different facilities. The ground floor of the north tower is home to the Galerie im Turm, providing exhibition space for artists living in Berlin. The top floor of the south tower features a Lounge im Turm available for rent, suitable for small receptions or celebrations. Since the spring of 2023, a unique GDR design model apartment has opened on the 10th floor. This apartment is opened for visitors by architect Thomas Krüger, who long lived there and promotes architectural culture, with interior arrangements by designer Stephan Schilgen. The apartment showcases many rare original GDR furniture pieces and artworks, illustrating that GDR design was not limited to the "Wedding Cake Style" of political propaganda but also carried traditions of Classical Modernism. Visitors here can experience the living atmosphere of the GDR era while enjoying a magnificent view over the city of Berlin.
 
 ### Neues Deutschland Publishing House Building (Verlagsgebäude Neues Deutschland)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Verlagsgebäude Neues Deutschland]({{ site.baseurl }}/_image/Berlin_DDR/Verlagsgebäude Neues Deutschland.jpg)
 
 Walking through the streets near Berlin Ostbahnhof, it is hard not to be attracted by a building with a giant "Neues Deutschland" sign. I first encountered it by chance while passing by on a bus. At the time, I thought it was just a post-war reconstruction slogan. Driven by curiosity, my research revealed a very twisted story behind this place.
 
@@ -195,7 +197,7 @@ As the Soviet Union took over East Berlin, this site was chosen as the headquart
 After German reunification in 1990, since the building was on land belonging to the former Deutsche Reichsbahn, a long legal battle ensued between the publisher and Deutsche Bahn (the legal successor to the Reichsbahn) from 1995 to 2005. The newspaper was forced to move out briefly during this time, returning only in 2005. Today, after modern renovations, the building has transformed into a diverse office and cultural center, housing tenants like the Rosa-Luxemburg-Stiftung and various NGOs. To ensure this complex history is not forgotten, several memorials have been erected outside the building, paying tribute to the old station, the lost Plaza theater, the persecuted founder Jules Marx, and the newspaper's struggle, making this building an indispensable part of Berlin's urban memory.
 
 ### The Lenin Stained Glass Window at the HU Berlin Law Library (Das Lenin-Glasfenster in der Zweigbibliothek Rechtswissenschaft der HU Berlin)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Lenin Alte Bibliothek]({{ site.baseurl }}/_image/Berlin_DDR/Lenin Alte Bibliothek.jpg)
 
 Who would have thought that the Humboldt University Law Library hides a series of stained glass windows depicting Marx, Engels, and Lenin? Between 1895 and 1917, Lenin visited Berlin many times and was a regular at the Royal Library. To commemorate Lenin’s time spent studying there, the large reading room was renamed the "Lenin Hall" (Lenin-Lesesaal) during the GDR era, and in 1968, the artist Frank Glaser created a massive stained glass window for it.
 
@@ -206,8 +208,6 @@ Following the collapse of the Soviet Union and German reunification, many commun
 ## Division, Surveillance, and Life in East Germany
 
 ### Ministry for State Security / Stasi (Ministerium für Staatssicherheit)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 The Stasi, officially known as the Ministry for State Security (Ministerium für Staatssicherheit; MfS), was the state intelligence agency and secret police of East Germany (GDR) from 1950 to 1990. Its creation was deeply influenced by Soviet intelligence agencies such as the Cheka and the KGB, and it positioned itself as the "shield and sword of the party" (Schild und Schwert der Partei) for the ruling Socialist Unity Party of Germany (SED).
 
 The core objective of the Stasi was to maintain the absolute power of the Communist Party and to monitor and suppress any potential political dissent or resistance. To achieve this, the Stasi permeated every corner of East German society, conducting the most rigorous and massive mass surveillance in human history. By 1989, the Stasi employed over 90,000 full-time agents and recruited approximately 190,000 informants (Inoffizielle Mitarbeiter). These informants included ordinary citizens from all walks of life, and the Stasi even required family members, friends, or spouses to monitor and report on one another.
@@ -229,6 +229,8 @@ To learn more about the Stasi, you can visit the Stasi Museum in Lichtenberg, Be
 The museum preserves Mielke’s former office, private lounge, and large conference room exactly as they were, allowing visitors to feel the oppressive atmosphere of the totalitarian bureaucracy. The permanent exhibition showcases the Stasi’s pervasive surveillance technology, including various hidden cameras and wiretapping devices. Furthermore, the Stasi Records Agency allows citizens to access records of their surveillance and displays the massive reconstruction project where staff have spent decades painstakingly hand-piecing together millions of document fragments shredded by the Stasi. Through preserved historical scenes and educational exhibitions, the Berlin Stasi headquarters and museum have become vital sites for reflecting on dictatorial history and promoting transitional justice.
 
 ### Berlin-Hohenschönhausen Memorial (Gedenkstätte Berlin-Hohenschönhausen)
+![Hohenschönhausen]({{ site.baseurl }}/_image/Berlin/BER_Hohenschönhausen.jpg)
+
 The Berlin-Hohenschönhausen Memorial carries the history of political persecution in Germany through different stages since 1945. In 1939, this site was a large canteen for the National Socialist People's Welfare (NSV). In May 1945, the Soviet People's Commissariat for Internal Affairs (NKVD) established Special Camp No. 3 here as a transit and detention center for prisoners. More than 16,000 people were detained here, including former Nazi members, spies, and even teenagers over the age of 12 accused of participating in "Werewolf" underground organizations. Living conditions in the camp were extremely harsh, with food shortages and inadequate medical care. With up to 4,000 people squeezed into the small space at once, an estimated 1,000 prisoners died.
 
 After the special camp was dissolved in November 1946, prisoners were forced to build cells in the basement. From 1947, it became a central remand prison. The cells were extremely damp and unheated; prisoners had only wooden boards for beds and buckets for waste. Additionally, the Soviet military frequently used physical violence, threats, and sleep deprivation, conducting grueling interrogations for hours at night. Prisoners during this period included not only former Nazis but also many political dissidents, such as members of democratic parties like the SPD and CDU, as well as communist dissenters viewed as threats.
@@ -238,8 +240,6 @@ In 1951, the Stasi took over the prison and forced inmates to build a new prison
 Following the dissolution of the Stasi in 1989, all political prisoners were released, and the prison was officially closed on October 3, 1990, the day of German reunification. Subsequently, the Berlin Senate recommended in 1991 that the site be converted into a memorial. The complex was listed as a historical monument in 1992, opened to visitors in 1994, and further expanded into a formal memorial institution in 2000.
 
 ### The Berlin Wall (Berliner Mauer)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 The Berlin Wall (Berliner Mauer) existed from 1961 to 1989 and was the most concrete symbol of German division and totalitarian oppression during the Cold War.
 
 After the end of World War II, according to the 1945 Potsdam Agreement, defeated Germany and its capital, Berlin, were divided into four occupation zones by the Allied powers (USA, UK, France, and the USSR). As ideological conflicts between the West and the Soviet Union intensified, the pro-Western Federal Republic of Germany (West Germany) and the Soviet-controlled German Democratic Republic (East Germany) were established in 1949.
@@ -259,19 +259,19 @@ On November 9, 1989, an unexpected event occurred. That evening, GDR official G�
 The fall of the Berlin Wall signaled the collapse of the East German regime. In the following months, the wall was rapidly dismantled. Following the signing of the "Two Plus Four Treaty" between the U.S., UK, France, the USSR, and the two German states, Germany was officially reunified on October 3, 1990. Today, except for a few sections preserved as historical monuments (such as the Berlin Wall Memorial) and the double row of cobblestones marking its former path in the city center, most of the wall has disappeared. However, the Berlin Wall has transformed from a symbol of oppression into a symbol of the courage and the common person's struggle for freedom.
 
 ### Berlin Wall Memorial (Gedenkstätte Berliner Mauer)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Berlin Wall]({{ site.baseurl }}/_image/Berlin_DDR/Berlin Wall.jpg)
 
 At the Berlin Wall Memorial on Bernauer Straße, we can learn more about the history of the city's division. This site preserves 70 meters of the original wall, including a watchtower and the "Death Strip." It features a large outdoor exhibition, a documentation center, and the "Window of Remembrance" dedicated to those who died attempting to cross the wall. The ground is also marked with the locations of escape tunnels dug by those seeking freedom, as well as counter-tunnels dug by the Stasi to intercept them.
 
 ### Checkpoint Charlie
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Checkpoint Charlie]({{ site.baseurl }}/_image/Berlin_DDR/Checkpoint Charlie.jpg)
 
 The name "Checkpoint Charlie" comes from the NATO phonetic alphabet, being the third checkpoint established by the Allies after Alpha (Helmstedt-Marienborn) and Bravo (Dreilinden-Drewitz). In October 1961, American and Soviet tanks faced off here fully armed, bringing the world to the brink of war in one of the most perilous moments of the Cold War. Furthermore, it was a site where countless individuals attempted to flee East Berlin, with their stories documented in the nearby open-air exhibition.
 
 Although the original checkpoint booth was moved to the Allied Museum in 1990, its status as a classic setting for spy movies remains. The reconstructed small-scale replica at the site, along with the photographs of the last soldiers stationed there, continues to attract tourists from around the world to witness the chilling atmosphere of the Iron Curtain era.
 
 ### East Side Gallery
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![East Side Gallery]({{ site.baseurl }}/_image/Berlin_DDR/East Side Gallery.jpg)
 
 Just days after the fall of the Berlin Wall in 1989, artists began painting on the wall. While initial works at Potsdamer Platz were painted over by East German border guards, the artists were undeterred. They decided to transform the wall into the world's largest gallery and, with the consent of the GDR Ministry of Defense, selected this section of the wall on Mühlenstraße as their canvas.
 
@@ -282,7 +282,7 @@ The most popular highlight of the East Side Gallery is undoubtedly Dmitri Vrubel
 Through these artistic creations, this section of the wall was saved from demolition and further decay. A year after its opening, the East Side Gallery was designated a protected monument by the state of Berlin, serving as an important original witness to Berlin's 28-year history of division. To ensure its long-term preservation, the Berlin state government officially transferred ownership of the East Side Gallery to the Berlin Wall Foundation (Stiftung Berliner Mauer) in November 2018.
 
 ### Oberbaum Bridge (Oberbaumbrücke)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Oberbaumbrücke]({{ site.baseurl }}/_image/Berlin_DDR/Oberbaumbrücke.jpg)
 
 When it comes to the most beautiful bridge in Berlin, if the Oberbaumbrücke near the East Side Gallery claims second place, no other bridge would dare claim first!
 
@@ -291,7 +291,7 @@ Its name, "Oberbaum," originates from an ancient customs system where tree trunk
 The bridge was closed shortly after the Berlin Wall was erected, as the entire Spree River and the bridge itself fell under East Berlin's jurisdiction. It wasn't until Christmas 1963 that a border crossing for pedestrians only was established here. After reunification, the bridge was expanded to four lanes, becoming a vital artery for pedestrians, vehicles, and the U1 subway line, and remains one of Berlin's most iconic symbols.
 
 ### Devil's Mountain (Teufelsberg)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Teufelsberg]({{ site.baseurl }}/_image/Berlin_DDR/Teufelsberg.jpg)
 
 In the west of Berlin lies the Teufelsberg (Devil's Mountain). To those in the know, it is a mecca for street art, but it was once a US listening station.
 
@@ -304,8 +304,6 @@ In the 1950s, US and British occupation forces recognized the hill's strategic p
 With the end of the Cold War and advances in satellite technology, traditional listening methods became obsolete, and the station officially closed in 1992. Between then and 1994, it was briefly used for civil aviation air traffic control. Subsequent development plans fell through, and the abandoned buildings gradually became a gathering place for Berlin's alternative culture, artists, and graffiti creators. Today, the site is operated as a curated street art gallery, attracting many young international visitors.
 
 ### Glienicke Bridge (Glienicker Brücke)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 Spanning the Havel River, the Glienicke Bridge (Glienicker Brücke) is a historically significant passage connecting Potsdam and southwestern Berlin. During the Cold War, the border between East and West Germany ran right through the middle of the bridge. Although East Germany named it the "Bridge of Unity" (Brücke der Einheit), it was completely closed to civilians after the Berlin Wall was built. Due to its remote location and ease of surveillance, it became the perfect spot for the US and Soviet camps to exchange spies and prisoners, making the bridge world-famous and the subject of much drama.
 
 The day after the fall of the Berlin Wall, the Glienicke Bridge reopened to two-way traffic and is now part of Germany's Federal Highway 1. If you look closely at the bridge, you can see that the shades of green paint on the two sides are slightly different. This is a result of East and West Germany performing their own maintenance and painting during the Cold War—a silent witness to Germany's divided history.
