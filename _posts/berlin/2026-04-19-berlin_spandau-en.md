@@ -23,11 +23,15 @@ Following Germany's defeat in World War I, the Treaty of Versailles prohibited a
 After the war, Spandau was assigned to the British occupation zone. Its economy shifted from armaments to consumer manufacturing, attracting many small and medium-sized private enterprises as well as essential public facilities like power plants and sewage treatment works. As a result, Spandau remains a premier industrial hub of Berlin today.
 
 ## The Behnitz Quarter of Spandau
+![Behnitz]({{ site.baseurl }}/_image/Berlin/Spandau_Behnitz.jpg)
+
 Behnitz (also known as Kolk) is the oldest quarter within Spandau’s Old Town. It has been a site of human settlement since the Stone Age. In the 12th century, it served as a Slavic settlement tied to a nearby castle, where residents performed forced labor; this castle eventually evolved into the famous Spandau Citadel. The area was officially incorporated into the Spandau urban district in 1240.
 
 Today, Behnitz retains its historical charm. Its narrow cobblestone streets and ancient timber-framed houses allow visitors to experience a distinct medieval atmosphere. In addition to the preserved remains of the old city walls, the quarter is home to the historic St. Mary’s Church (St. Marien am Behnitz), the second oldest Catholic church in the Greater Berlin area.
 
 ## St. Mary’s Church (St. Marien am Behnitz)
+![St. Marien]({{ site.baseurl }}/_image/Berlin/Spandau_St. Marien.jpg)
+
 Beginning in the 18th century, the influx of Catholic workers and soldiers into Spandau created a growing need for a new place of worship. Consequently, St. Mary’s Church was designed by August Soller—a student of the renowned architect Karl Friedrich Schinkel. The foundation stone was laid in 1847, and the church was consecrated in 1848.
 
 The church was twice requisitioned as a garrison church (Garnisonkirche): from 1910 to 1920 and again from 1936 to 1945. Although it suffered severe damage during World War II, it remained in use until 1952 before falling into disrepair. In a shocking turn of events during a 1964 renovation, precious interior frescoes were covered with plaster and the windows were bricked up. While the Archdiocese of Berlin purchased the church in 1995, they were unable to afford the high costs of restoration and decided to sell it. In late 2001, a couple from Neukölln purchased the building and undertook a thorough restoration using entirely private funds. They drained years of accumulated moisture from the walls, reopened the windows, and restored the magnificent interior decorations based on historical documents.
@@ -37,6 +41,8 @@ Today, the church interior is dominated by traditional Marian colors—blue, red
 St. Mary’s Church remains privately owned today, but visitors can appreciate its beauty during the masses held twice a week.
 
 ## St. Nicholas Church (St. Nikolai Kirche)
+![Reformationsplatz]({{ site.baseurl }}/_image/Berlin/Spandau_Reformationsplatz.jpg)
+
 During the Middle Ages, Spandau was a vital trading hub at the confluence of the Spree and Havel rivers. Consequently, St. Nicholas Church in the Old Town was dedicated to Saint Nicholas, the patron saint of sailors and merchants. The church first appeared in records in the 13th century. The main structure seen today dates primarily from the 15th century—a late Gothic brick hall church featuring the oldest surviving Gothic church roof in the Brandenburg region.
 
 Historically, St. Nicholas Church played a pivotal role in the Reformation. Elector Joachim II, who had been sympathetic to the movement since the 1520s, officially converted to Protestantism on November 1, 1539, making this church the center of the Brandenburg Reformation. A painting by the 19th-century artist Carl Röhling in the south aisle vividly depicts the scene of Joachim II receiving Communion. Furthermore, the church is located at Reformationsplatz (Reformation Square), with a statue of Joachim II standing at the main entrance to commemorate this historic milestone.
@@ -59,6 +65,8 @@ The four bastions are equally renowned: King (König), Queen (Königin), Crown P
 Additionally, the Spandau City History Museum in the Armory (Zeughaus) and the Drill Hall (Exerzierhalle), which houses ancient cannons and military artifacts, are must-see attractions.
 
 ## Spandau Prison (Kriegsverbrechergefängnis Spandau)
+![Zitadelle]({{ site.baseurl }}/_image/Berlin/Spandau_Zitadelle.jpg)
+
 There is a shopping mall in Spandau that looks like an ordinary supermarket at first glance, yet this site was once the location of the Spandau Prison.
 
 Built in 1877 as a military prison, it became a site for incarcerating political opponents after the Nazi government took power in 1933. Following WWII, the Allies took control of the facility to house the seven major Nazi war criminals sentenced during the Nuremberg Trials, including Albert Speer, Karl Dönitz, and Rudolf Heß—Hitler’s steadfast deputy who was arrested after his secret flight to Scotland.
