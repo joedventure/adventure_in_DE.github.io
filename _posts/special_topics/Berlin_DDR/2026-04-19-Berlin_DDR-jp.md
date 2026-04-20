@@ -11,7 +11,7 @@ JP version
 
 
 ## ベルリン・カールスホルスト博物館 (Museum Berlin-Karlshorst)
-![Brömserburg]({{ site.baseurl }}/_image/Mittelrheintal/Rüd_Brömserburg.jpg)
+![Museum Berlin-Karlshorst]({{ site.baseurl }}/_image/Berlin_DDR/Museum_Karlshorst.jpg)
 
 第二次世界大戦の欧州戦線は、1939年9月1日のドイツ軍によるポーランド侵攻に始まり、1945年のドイツ軍の無条件降伏をもって終結しました。しかし、欧州戦線の終結日については、国によって定義が異なります。
 
@@ -27,7 +27,7 @@ JP version
 
 
 ### トレプタワー公園ソ連兵記念碑 (Sowjetisches Ehrenmal Treptow)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Sowjetisches Ehrenmal Treptow]({{ site.baseurl }}/_image/Berlin_DDR/Ehrenmal_Treptow.jpg)
 
 戦争がもたらすのは破滅であり、この災厄の中で数え切れないほどの命が失われました。第二次世界大戦で戦死した将兵を追悼するため、ソ連政府はベルリンに4つの主要な記念碑を相次いで建立しました。その中でもトレプタワー公園にあるソ連兵記念碑は、最大規模のものです。
 
@@ -38,7 +38,7 @@ JP version
 園内の両側には16基の石棺が設置されており、そこには大祖国戦争の場面を描いた浮き彫り（レリーフ）と、スターリンの語録が刻まれています。また、主像の周囲には5つの墓域が設けられていますが、これらは主に象徴的な意味を持ち、実際に7,000人以上の兵士が埋葬されている墓地は、園内の縁の部分に控えめに配置されています。
 
 ### ティーアガルテン蘇連兵記念碑 (Sowjetisches Ehrenmal Tiergarten)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Sowjetisches Ehrenmal Tiergarten]({{ site.baseurl }}/_image/Berlin_DDR/Ehrenmal_Tiergarten.jpg)
 
 もう一つのソ連兵記念碑は、ブランデンブルク門から徒歩10分圏内のティーアガルテン（Großer Tiergarten）に位置しています。
 
@@ -47,7 +47,7 @@ JP version
 記念碑の裏手には小さな公園があり、2,000人以上の戦死した兵士の墓が点在しています。かつての衛兵所には展示パネルが設置され、来訪者にベルリンにあるソ連記念碑や、第二次世界大戦に関するその他の詳細を紹介し、後世への警鐘を鳴らす役割を果たしています。
 
 ### エルンスト・テールマン記念像 (Ernst-Thälmann-Denkmal)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Denkmal_Thälmann]({{ site.baseurl }}/_image/Berlin_DDR/Denkmal_Thälmann.jpg)
 
 共産主義の政治家エルンスト・テールマン（Ernst Thälmann）はドイツのハンブルクで生まれました。彼は1919年から1933年までドイツ共産党（KPD）を代表してハンブルク市議会議員を務め、1924年から1933年までは国会議員を務めました。1925年にはドイツ共産党議長となり、1925年と1932年の二度にわたって大統領選に出馬しました。1933年3月初旬にナチスが政権を握ると、テールマンは直ちに逮捕され、裁判も行われないまま11年間にわたって複数の刑務所に収監されました。1944年8月18日、ヒトラーの命により、テールマンはブーヘンヴァルト（Buchenwald）強制収容所に送られ、殺害されました。
 
@@ -56,7 +56,7 @@ JP version
 ## 社会主義の壁画と建築
 
 ### 『共和国の建設』*Aufbau der Republik*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Aufbau der Republik]({{ site.baseurl }}/_image/Berlin_DDR/Aufbau der Republik.jpg)
 
 ドイツ連邦財務省ビルの北東側列柱廊には、アーティストのマックス・リングナー（Max Lingner）が設計し、マイセン磁器の絵付師14人が協力して完成させた有名な壁画『共和国の建設（Aufbau der Republik）』があります。当初は「人類の文化発展における平和の意義と、そのための闘争の必要性」という題名でしたが、東ドイツ指導部の要求により何度も修正され、最終的には労働者階級の台頭を表現するプロパガンダ画となりました。
 
@@ -69,7 +69,8 @@ JP version
 ドイツ再統一後、ここは1994年まで東ドイツ企業の民営化を担う信託公社（Treuhandanstalt）の本部となりました。1992年、1991年に赤軍派（RAF）によって暗殺されたデトレフ・ローヴェッダー信託公社総裁を記念して、ビルは彼の名を冠するようになり、1999年からは連邦財務省の庁舎となっています。
 
 ### 『ドイツ労働者運動の歴史より』*Aus der Geschichte der deutschen Arbeiterbewegung*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Berlin_ESMT]({{ site.baseurl }}/_image/Berlin_DDR/Berlin_ESMT.jpg)
+![Aus der Geschichte der deutschen Arbeiterbewegung]({{ site.baseurl }}/_image/Berlin_DDR/Aus der Geschichte der deutschen Arbeiterbewegung.jpg)
 
 欧州経営技術大学院（ESMT）の学生や卒業生なら知っている通り、学校の建物は旧東ドイツの国家評議会ビル（Staatsratsgebäude）であり、その地位は現在の連邦首相府に相当するものでした。戦後ベルリンで最初に新築された政府ビルであり、爆撃で破壊された王宮の跡地に建てられました。
 
@@ -84,7 +85,8 @@ JP version
 この作品は、労働者、農民、知識人を象徴するハンマー、穂、コンパスを含む東ドイツの国章を正確に再現しています。このモザイクは、館内で唯一、建築と真に一体化している芸術品です。東ドイツ崩壊後に本来の政治的機能は失われましたが、歴史的・芸術的価値から完全に保存されており、必要に応じてカーテンで遮蔽できる装置も備えられ、現代の用途に適応しています。
 
 ### 『私たちの生活』*Unser Leben*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Unser Leben]({{ site.baseurl }}/_image/Berlin_DDR/Unser Leben.jpg)
+![Haus des Lehrers]({{ site.baseurl }}/_image/Berlin_DDR/Haus des Lehrers.jpg)
 
 ヴァルター・ヴォマカ（Walter Womacka）は、東ドイツを代表するアーティストの一人です。彼は東ドイツ美術家協会副会長を務め、1968年には東ドイツ芸術アカデミーの会員となりました。当時の東ドイツ指導者ヴァルター・ウルブリヒトから多大な支持を受けていたため、ヴォマカの作品はベルリンや旧東ドイツの多くの地域で見ることができます。
 
@@ -93,13 +95,15 @@ JP version
 教師の家自体について言えば、その前身は1908年に落成した教師会館（Lehrervereinshaus）です。ここは歴史的意義が深く、1919年2月には殺害された共産主義指導者ローザ・ルクセンブルクとカール・リープクネヒトの追悼行事が行われ、1920年にはドイツ共産党（KPD）と独立社会民主党（USPD）がここで合併を宣言しました。この建物が濃厚な左派政治色を帯びていたからこそ、戦後最も早く完成した高層ビルの一つとなったのかもしれません。
 
 ### 『時空を超える人類』*Der Mensch überwindet Zeit und Raum*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Der Mensch überwindet Zeit und Raum]({{ site.baseurl }}/_image/Berlin_DDR/Der Mensch überwindet Zeit und Raum.jpg)
 
 「旅行の家（Haus des Reisens）」にある銅製のレリーフ作品『時空を超える人類（Der Mensch überwindet Zeit und Raum）』も、ヴォマカの作品の一つです。作品の主体は、若い男女と一人の宇宙飛行士です。彼らを囲むように、水上の船、樹木、鳥、太陽といった様々な景色のイメージが描かれています。これは、社会主義が科学技術の進歩に尽力し、それによって人類が時空の制限を受けず、先駆者として宇宙へ飛び出し、その素晴らしさを世界に伝えることができるという考えを表現しています。
 
 「旅行の家」は、ドイツ再統一前まで東ドイツ国営旅行社（DDR-Reisebüro）の本部および東ドイツ国営航空（インターフルク）のオフィスが置かれていた場所です。建物の1階には国内外の航空便や鉄道のチケットカウンターがあり、さらに外国人向けの24時間登録サービス所や外貨両替所も設置されていました。現在はナイトクラブやフィットネスジムが入っています。
 
 ### 民族友好の噴泉（Brunnen der Völkerfreundschaft）
+![Brunnen der Völkerfreundschaft]({{ site.baseurl }}/_image/Berlin_DDR/Brunnen der Völkerfreundschaft.jpg)
+
 アレクサンダー広場をよく訪れる方なら、広場中央にある大きな噴水が印象に残っているはずです。この噴水の正式名称は「民族友好の噴泉（Brunnen der Völkerfreundschaft）」で、1969年から1970年にかけての広場再整備の際にヴォマカが手掛けた作品です。
 
 噴水の高さは6.20メートルで、鍛造銅、ガラス、陶器、エナメルなど多様な素材で作られており、内側と外側の2つの水槽で構成されています。外側は直径23メートルに及ぶ巨大な円形水槽で、内側には高さの異なる17本の銅の柱が螺旋状に並び、それぞれの頂点にひし形の銅盤がついています。水は最高部から湧き出し、これら17の銅盤を螺旋状に伝い落ちて内側の水槽へ、そして内壁の排水口を通って外側の水槽へと流れ込みます。内側の水槽の外壁には、動植物の図案や民族情緒あふれる平和のイメージが描かれています。
@@ -107,7 +111,8 @@ JP version
 この螺旋状に流れ落ちる水の動きを通じて、噴水全体が「万民の友好」という理念を生き生きと伝え、絶え間なく流れる水を友好の象徴として、ここから世界各地へと広げていく様子を表現しています。
 
 ### 『組織者としての報道機関』*Die Presse als Organisator*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Haus des Berliner Verlages]({{ site.baseurl }}/_image/Berlin_DDR/Haus des Berliner Verlages.jpg)
+![Die Presse als Organisator]({{ site.baseurl }}/_image/Berlin_DDR/Die Presse als Organisator.jpg)
 
 アレクサンダー広場の北西側には、東ドイツの社会主義モダニズム（Sozialistische Moderne）スタイルの傑作である「ベルリン出版社ビル（Haus des Berliner Verlages）」とその付属施設「プレスカフェ（Pressecafé）」があります。
 
@@ -118,7 +123,7 @@ JP version
 社会主義モダニズムの名建築として、壁画も欠かせません。プレスカフェの外壁には、ヴィリー・ノイベルト（Willi Neubert）によるエナメルタイルの壁画『組織者としての報道機関（Die Presse als Organisator）』があります。そこには東ドイツの出版・編集作業の様子や、人々がニュースを読んでいる場面が鮮やかに描かれています。よく見ると、その中にマルクスの肖像が隠されているのが分かります。興味深いことに、ドイツ再統一後、このイデオロギー色の強い壁画はステーキレストランの看板によって29年もの間覆い隠されていました。2021年にようやく修復が完了し、再び大衆の前に姿を現しました。
 
 ### 市役所アーケード（Rathaus-Passagen）
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Rathaus-Passagen]({{ site.baseurl }}/_image/Berlin_DDR/Rathaus-Passagen.jpg)
 
 個人的に、アレクサンダー広場近くの「市役所アーケード（Rathaus-Passagen）」がとても好きです。この巨大な建築群は隣接する「赤の市役所（Rotes Rathaus）」と呼応しており、通りかかるたびにモダンさとレトロさが入り混じった不思議な感覚を覚えます。
 
@@ -129,7 +134,8 @@ JP version
 公共芸術に関しては、初期の作品の多くが行方不明になっていますが、建物の北側には1970年に彫刻家ゲルハルト・ロンメル（Gerhard Rommel）によって制作された「建設労働者の碑（Bauarbeiterdenkmal）」が今も残っています。このブロンズ・レリーフは特に女性の技術者を描いており、当時の東ドイツが提唱していた男女平等の社会的価値観を反映しています。
 
 ### カール・マルクス通り (Karl-Marx-Allee)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Karl-Marx Allee]({{ site.baseurl }}/_image/Berlin_DDR/Karl-Marx Allee.jpg)
+![Karl-Marx Allee2]({{ site.baseurl }}/_image/Berlin_DDR/Karl-Marx Allee2.jpg)
 
 ベルリンで私がとても気に入っているもう一つの場所は、カール・マルクス通り（Karl-Marx-Allee）です。この道は非常に幅が広く、両側に並ぶ建物も巨大で、ここを歩いているといつも晴れやかな気分になります。
 
@@ -142,7 +148,8 @@ JP version
 皮肉なことに、1953年6月、政府による一方的な作業ノルマ引き上げに抗議して、スターリン通りの建設現場の労働者が真っ先にストライキを起こしました。この抗議は瞬く間に東ドイツ全土を巻き込む「6月17日事件」へと発展し、最終的にはソ連軍の戦車によって鎮圧されました。労働者の夢を象徴するこの大通りが、東ドイツ史上最も暗い一ページを刻むことになるとは、誰も予想だにしなかったことでしょう。
 
 ### カフェ・モスクワ (Café Moskau) と『ソ連各民族の生活』*Aus dem Leben der Völker der Sowjetunion*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Café Moskau]({{ site.baseurl }}/_image/Berlin_DDR/Café Moskau.jpg)
+![Aus dem Leben der Völker der Sowjetunion]({{ site.baseurl }}/_image/Berlin_DDR/Aus dem Leben der Völker der Sowjetunion.jpg)
 
 カフェ・モスクワ（Café Moskau）は、東ドイツとソ連の兄弟愛を象徴するランドマーク的な建物です。1964年1月18日にオープンし、ソ連各国の特色ある料理を提供し、内部にはバー、カフェ、ナイトクラブ、工芸品店が備わっていました。かつては高級な社交場でしたが、一方で多くの闇取引やスパイ活動の拠点でもありました。1989年に歴史的建造物に指定された後、1994年にレストランとしての営業を終了し、現在は各種イベントや会議の会場として利用されています。
 
@@ -153,7 +160,8 @@ JP version
 また、壁画の柱の頂上には、ソ連の科学技術の象徴として、アーティストのフリッツ・キューン（Fritz Kühn）が制作した実物大のスプートニク衛星の模型が立っています。
 
 ### キノ・インターナショナル (Kino International) と『現代の人々の生活』*Aus dem Leben der heutigen Menschen*
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Kino International]({{ site.baseurl }}/_image/Berlin_DDR/Kino International.jpg)
+![Aus dem Leben der heutigen Menschen]({{ site.baseurl }}/_image/Berlin_DDR/Aus dem Leben der heutigen Menschen.jpg)
 
 1963年にオープンし、建築家ヨーゼフ・カイザー（Josef Kaiser）が設計したキノ・インターナショナル（Kino International）は、ベルリンを代表するモダニズム建築の一つです。その完成は、東ドイツ政府がスターリン時代の重苦しい建築様式を脱却し、西側の現代的な簡潔美へと歩み寄ろうとしたことを象徴しています。懸垂式の鉄骨構造と、2階部分が外側に9メートル突き出したガラス張りのロビーは、軽やかで開放的な空間を演出しています。
 
@@ -168,7 +176,7 @@ JP version
 しかし、このレリーフの制作は順風満帆ではありませんでした。当初は彫刻家ヴァルデマール・グジメク（Waldemar Grzimek）が設計しましたが、彼はドイツ社会主義統一党（SED）の強硬な芸術政策に不満を持ち、壁が建設される前に東ベルリンへの移住を拒否しました。そのため、その後の作業は彼のチームメンバーであったカール＝ハインツ・シャマルとフーベルト・シーフェルバインが引き継ぎました。1963年の開館時には、西側のレリーフのみが間に合いました。ドイツ古蹟保護基金の支援により、これらの貴重なレリーフは今日まで保存され続けています。
 
 ### フランクフルター・トール (Frankfurter Tor)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Frankfurter Tor]({{ site.baseurl }}/_image/Berlin_DDR/Frankfurter Tor.jpg)
 
 フランクフルター・トール（Frankfurter Tor）の最初の位置は現在のU5ヴェーバーヴィーゼ（Weberwiese）駅付近にあり、ベルリン税関壁の門の一つでした。フランクフルト・アン・デア・オーダー（Frankfurt (Oder)）へと続く軍道の起点であったことからその名がつきました。1716年には木造の門でしたが、1802年に石造りに改築され、1867年に都市拡張のために解体されました。第二次世界大戦中、1945年春のソ連軍による攻防戦とそれ以前の空襲により、この一帯は深刻な被害を受けました。戦後、1950年から1956年にかけて廃墟は全面的に再建され、7階から9階建ての巨大な住宅街となりました。現在のフランクフルター・トールという名称は、旧市門への敬意を表して1957年に改めて命名されたものです。
 
@@ -177,7 +185,7 @@ JP version
 その壮大な外観に加え、塔の南北それぞれに異なる内部施設があります。北塔の地上階には「ガレリー・イム・トゥルム（Galerie im Turm）」が入居し、ベルリン在住のアーティストに展示スペースを提供しています。南塔の最上階にはレンタル可能な「ラウンジ・イム・トゥルム（Lounge im Turm）」があり、小規模なレセプションや祝賀行事に適しています。2023年春からは、タワーの10階に特色ある東ドイツデザインのモデルアパートが公開されました。このアパートは、ここに長く住み建築文化を推進している建築家トーマス・クリューガー（Thomas Krüger）氏によって公開され、デザイナーのシュテファン・シルゲン（Stephan Schilgen）氏がインテリアを手掛けました。室内には多くの希少な東ドイツ時代のオリジナル家具や美術品が展示されており、当時のデザインが政治宣伝的な「スターリン様式」に留まらず、古典的モダニズムの伝統も受け継いでいたことを物語っています。来訪者はここで東ドイツの生活感を深く体験できるだけでなく、ベルリン市内を一望できる絶景も楽しむことができます。
 
 ### 『ノイエス・ドイチュラント』出版社ビル (Verlagsgebäude Neues Deutschland)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Verlagsgebäude Neues Deutschland]({{ site.baseurl }}/_image/Berlin_DDR/Verlagsgebäude Neues Deutschland.jpg)
 
 ベルリン東駅（Ostbahnhof）付近を歩いていると、「Neues Deutschland（新しいドイツ）」という巨大な看板を掲げた建物が目に留まります。私も以前、偶然バスで通りかかった際、戦後再建のスローガンか何かかと思いましたが、好奇心に駆られて調べてみると、この場所には非常に複雑な物語があることが分かりました。
 
@@ -190,7 +198,7 @@ JP version
 1990年のドイツ再統一後、この建物が旧ドイツ国営鉄道（Deutsche Reichsbahn）の土地にあったことから、1995年から2005年にかけて、出版社と国営鉄道の法的後継者であるドイツ鉄道（Deutsche Bahn）との間で長期にわたる法的紛争が繰り広げられました。その間、新聞社は一時的に退去を余儀なくされましたが、2005年にようやく戻ることができました。現在の「ノイエス・ドイチュラント・ビル」は近代的な改修を経て、多様なオフィスと文化センターへと転換され、ローザ・ルクセンブルク財団や多くのNGOが入居しています。この複雑な歴史を風化させないよう、建物の外には旧駅舎、失われたプラザ劇場、迫害された創設者ジュール・マルクス、そして新聞社の奮闘を記念する複数の石碑が設置されており、ベルリンの都市の記憶に欠かせない場所となっています。
 
 ### フンボルト大学法学部図書分館のレーニン・ステンドグラス (Das Lenin-Glasfenster in der Zweigbibliothek Rechtswissenschaft der HU Berlin)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Lenin Alte Bibliothek]({{ site.baseurl }}/_image/Berlin_DDR/Lenin Alte Bibliothek.jpg)
 
 フンボルト大学法学部の図書館内に、マルクス、エンゲルス、そしてレーニンが描かれたステンドグラスが隠されているとは、誰が想像したでしょうか。1895年から1917年の間、レーニンは何度もベルリンを訪れており、当時の王立図書館の常連でした。レーニンがここで熱心に勉強していたことを記念して、東ドイツ時代に図書館の大閲覧室は「レーニン・ホール（Lenin-Lesesaal）」と改名され、1968年に芸術家フランク・グラーザー（Frank Glaser）によって巨大なステンドグラスが制作されました。
 
@@ -201,8 +209,6 @@ JP version
 ## 分断、監視と東ドイツの生活
 
 ### 国家保安省／シュタージ (Ministerium für Staatssicherheit)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 シュタージ（Stasi）、正式名称「国家保安省（Ministerium für Staatssicherheit; MfS）」は、1950年から1990年まで東ドイツに存在した国家情報機関および秘密警察です。その設立は、ソ連のチェカやKGBといった情報機関の影響を強く受けており、自らを東ドイツの執政党であるドイツ社会主義統一党（SED）の「党の盾と矛（Schild und Schwert der Partei）」と位置づけていました。
 
 シュタージの核心的な目標は、共産党の絶対的な権力を維持し、潜在的な政治的異議や反抗を監視・抑圧することでした。この目的を達成するため、シュタージは東ドイツ社会のあらゆる隅々に浸透し、人類史上最も厳密かつ大規模な大衆監視を行いました。1989年までに、シュタージは9万人以上の正規職員を擁し、約19万人の協力者（線人／非公式協力者）を動員していました。これらにはあらゆる職業の一般市民が含まれており、家族、友人、あるいは配偶者同士で互いを監視し密告することさえ求められました。
@@ -224,6 +230,8 @@ JP version
 博物館内には、ミールケ当時のオフィス、私的な休憩室、大規模な会議室が当時のまま保存されており、参観者は極権的な官僚体制の抑圧的な雰囲気を直に感じることができます。常設展では、あらゆる場所に仕掛けられた監視技術や手法が展示されており、様々な隠しカメラや盗聴設備を見ることができます。また、シュタージ文書館では、当時監視されていた記録を一般市民が閲覧できるよう公開しており、シュタージによってシュレッダーにかけられた数百万枚の文書の破片を、職員が数十年かけて手作業で復元している壮大な再建プロジェクトの様子も紹介されています。歴史的な現場の保存と教育展示を通じて、ベルリンのシュタージ本部と博物館は、独裁の歴史を反省し移行期的正義を推進するための重要な場所となっています。
 
 ### ベルリン・ホーエンシェーンハウゼン記念館 (Gedenkstätte Berlin-Hohenschönhausen)
+![Hohenschönhausen]({{ site.baseurl }}/_image/Berlin/BER_Hohenschönhausen.jpg)
+
 ベルリン・ホーエンシェーンハウゼン記念館は、1945年以来のドイツにおける政治的迫害の歴史を、異なる段階を経て今に伝えています。ここは1939年当時、国家社会主義公共福祉（NSV）の巨大な給食施設でした。1945年5月、ソ連内務人民委員部（NKVD）はここに「第3特殊収容所（Speziallager Nr. 3）」を設立し、囚人の中継・収容所としました。ここには旧ナチス党員、スパイ、さらには地下組織「人狼」に関与したとされる12歳以上の青少年を含む、1万6千人以上が拘留されました。収容所内の生活環境は極めて劣悪で、食糧不足と医療の欠如に苦しみました。狭い空間に一度に最大4千人以上が詰め込まれたこともあり、推定で約千人の囚人が死亡したとされています。
 
 1946年11月に特殊収容所が解散した後、囚人たちは地下室に独房を建設することを強要されました。1947年からは、ここが中央拘置所となりました。独房は極めて湿気が多く暖房もありませんでした。囚人には木の板のベッドと排泄用の桶しか与えられませんでした。加えて、ソ連軍は睡眠の剥奪や長時間の直立強要といった肉体的な暴力と脅迫を頻繁に用い、夜間に数時間に及ぶ疲労尋問を行いました。この時期の囚人には、旧ナチス関係者のほか、社会民主党（SPD）やキリスト教民主同盟（CDU）などの民主主義政党のメンバー、さらには脅威とみなされた共産主義の異見者など、多くの政治的異議申し立て者が含まれていました。
@@ -233,8 +241,6 @@ JP version
 1989年にシュタージが解体されると、すべての政治犯が釈放され、刑務所はドイツ再統一の当日である1990年10月3日に正式に閉鎖されました。その後、1991年にベルリン参議院がこの場所を記念館に改築することを提言し、1992年に建築群が歴史的建造物に指定、1994年に一般公開が始まり、2000年からは正式な記念機関としてさらに拡張されました。
 
 ### ベルリンの壁 (Berliner Mauer)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 ベルリンの壁（Berliner Mauer）は1961年から1989年まで存在し、冷戦期におけるドイツの分断と集権的な抑圧の最も具体的な象徴でした。
 
 第二次世界大戦終結後、1945年のポツダム協定に基づき、敗戦したドイツとその首都ベルリンは連合国（米・英・仏・ソ）によって4つの占領区域に分割されました。西側諸国とソ連のイデオロギー対立が激化する中、1949年に親西側のドイツ連邦共和国（西ドイツ）とソ連の支配下にあるドイツ民主共和国（東ドイツ）がそれぞれ成立しました。
@@ -254,19 +260,19 @@ JP version
 ベルリンの壁の崩壊は、東ドイツ政権の終焉を告げるものでした。続く数ヶ月の間に壁は急速に撤去され、米・英・仏・ソと東西ドイツによる「2プラス4条約」の締結を経て、1990年10月3日にドイツは正式に国家再統一を実現しました。現在、歴史的建造物として保存されている一部の区間（ベルリンの壁記念館など）や、市中心部の地面に旧跡を示す二列の石畳を除き、壁の大部分は姿を消しました。しかし、ベルリンの壁は抑圧政策の象徴から、自由を勝ち取ろうとした市民の勇気の象徴へとその意味を変えています。
 
 ### ベルリンの壁記念館 (Gedenkstätte Berliner Mauer)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Berlin Wall]({{ site.baseurl }}/_image/Berlin_DDR/Berlin Wall.jpg)
 
 ベルナウアー通り（Bernauer Straße）にあるベルリンの壁記念園区では、都市が壁によって分断された歴史をより深く知ることができます。ここには、監視塔や死の地帯を含む70メートルに及ぶ当時のままの壁が保存されており、大規模な屋外展示、ドキュメンテーションセンター、そして壁を越えようとして犠牲になった人々を追悼する「追悼の窓」が併設されています。地面には、自由を求めて掘られた逃亡用のトンネルの位置や、シュタージがそれを阻止するために掘った対抗トンネルの跡も記されています。
 
 ### チェックポイント・チャーリー (Checkpoint Charlie)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Checkpoint Charlie]({{ site.baseurl }}/_image/Berlin_DDR/Checkpoint Charlie.jpg)
 
 チェックポイント・チャーリーの名称はNATOフォネティックコードに由来し、アルファ（ヘルムシュテット＝マリーエンボルン）、ブラボー（ドリーリンデン＝ドレーヴィッツ）に続いて連合軍によって設置された3番目の検問所です。1961年10月、米ソ両軍の戦車がここで完全武装で対峙し、一触即発の事態となりました。これは冷戦史上、極めて緊迫した瞬間でした。また、ここは多くの人々が東ベルリンからの脱出を試みた場所でもあり、その物語は隣接する屋外展示に記録されています。
 
 オリジナルの検問所小屋は1990年に連合軍博物館に移設されましたが、スパイ映画の古典的な舞台として、現在の場所に再建された縮小版のレプリカや、最後に駐留した兵士たちの写真は、今もなお鉄のカーテンの下の緊迫した歳月をひと目見ようとする世界中の観光客を惹きつけています。
 
 ### イーストサイドギャラリー (East Side Gallery)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![East Side Gallery]({{ site.baseurl }}/_image/Berlin_DDR/East Side Gallery.jpg)
 
 1989年にベルリンの壁が崩壊してからわずか数日後、アーティストたちは壁に絵を描き始めました。当初、ポツダム広場に描かれた作品は東ドイツの国境警備隊によって塗りつぶされましたが、アーティストたちは諦めませんでした。彼らは壁を世界最大のギャラリーにすることを決意し、東ドイツ国防省の同意を得て、ミューレン通り（Mühlenstraße）にあるこの区間の壁を作画場所として選定しました。
 
@@ -277,7 +283,7 @@ JP version
 これらの芸術創作を通じて、この区間の壁は解体やさらなる劣化の運命から免れました。オープンから1年余り後、イーストサイドギャラリーはベルリン州によって保護記念物に指定され、ベルリンの28年にわたる分断の歴史を伝える重要な現地の証人となりました。この屋外ギャラリーを長期的に存続させるため、ベルリン州政府は2018年11月、イーストサイドギャラリーの所有権を正式にベルリンの壁財団（Stiftung Berliner Mauer）に移管し、記念物の保存と維持を専門的に担うこととなりました。
 
 ### オーバーバウム橋 (Oberbaumbrücke)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Oberbaumbrücke]({{ site.baseurl }}/_image/Berlin_DDR/Oberbaumbrücke.jpg)
 
 ベルリンで最も美しい橋といえば、イーストサイドギャラリーのすぐそばにあるオーバーバウム橋（Oberbaumbrücke）が自ら二位を名乗れば、一位を名乗れる橋は他にありません！
 
@@ -286,7 +292,7 @@ JP version
 ベルリンの壁が建設された直後、この橋は閉鎖されました。当時はシュプレー川の水域全体と橋自体が東ベルリンの管轄下にありました。1963年のクリスマスになってようやく、歩行者専用の国境検問所が再設置されました。ドイツ再統一後、橋は4車線に拡張され、歩行者、車両、地下鉄U1線が通行する重要な交通インフラとなり、ベルリンの象徴の一つとなっています。
 
 ### デビルズ・マウンテン／トイフェルスベルク (Teufelsberg)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
+![Teufelsberg]({{ site.baseurl }}/_image/Berlin_DDR/Teufelsberg.jpg)
 
 ベルリンの西側に「デビルズ・マウンテン（Teufelsberg：悪魔の山）」があります。詳しい人にとってはストリートアートの聖地ですが、かつてここはアメリカ軍のリスニングステーション（傍受基地）でした。
 
@@ -299,8 +305,6 @@ JP version
 冷戦の終結と衛星通信技術の進歩により、伝統的な傍受手法は徐々に時代遅れとなり、基地は1992年に正式に閉鎖されました。その後1994年までは民間航空の交通管制に短期間使用されました。後にいくつかの開発計画もありましたが、実現には至りませんでした。放棄された建物は、次第にベルリンのオルタナティブ文化、アーティスト、グラフィティ作家たちの集まる場所となりました。現在、このエリアはキュレーションされたストリートアートギャラリーとして運営されており、多くの若い外国人観光客を惹きつけています。
 
 ### グリーニケ橋 (Glienicker Brücke)
-![Mäuseturm]({{ site.baseurl }}/_image/Mittelrheintal/Bingen_Mäuseturm.jpg)
-
 ハフェル川（Die Havel）に架かるグリーニケ橋（Glienicker Brücke）は、ポツダム（Potsdam）とベルリン南西部を結ぶ、歴史的に極めて重要な通路です。冷戦時代、東西ドイツの国境はちょうど橋の中央を通っていました。東ドイツはこれを「団結の橋（Brücke der Einheit）」と名付けましたが、ベルリンの壁建設後は、東西の市民は完全に通行できなくなりました。人里離れた場所にあり監視が容易であったことから、ここは米ソ両陣営のスパイや囚人を交換する絶好の場所となり、この橋は劇的なドラマの舞台として世界的に有名になりました。
 
 ベルリンの壁崩壊の翌日、グリーニケ橋は再開放され、双方向の交通が再開されました。現在はドイツ連邦道路1号線の一部となっています。橋をよく見ると、両側の緑色のペンキの色調がわずかに異なっているのが分かります。これは冷戦時代に東西ドイツがそれぞれ別々に補修し、塗装した結果であり、ドイツがかつて分断されていた歴史の無言の証人となっています。
