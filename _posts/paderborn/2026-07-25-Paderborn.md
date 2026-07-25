@@ -2,9 +2,11 @@
 layout: post
 show_map: false
 title: "帕德博恩歷史與景點介紹"
+state_name: "北萊茵-西發利亞"
+state_id: "nordrhein-westfalen" 
 slug: paderborn
 lang: zh
-permalink: /paderborn/
+permalink: /nordrhein-westfalen/paderborn/
 ---
 
 ## 帕德博恩城市歷史
