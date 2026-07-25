@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ダルムシュタットの歴史と観光スポットの紹介s" 
+title: "ダルムシュタットの歴史と観光スポットの紹介" 
 state_name: "ヘッセン州" 
 state_id: "hessen" 
 show_map: false
