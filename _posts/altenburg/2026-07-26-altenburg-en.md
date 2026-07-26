@@ -10,7 +10,6 @@ permalink: /en/thueringen/altenburg/
 ---
 
 ## City History of Altenburg
-
 ![ABG-Marktplatz]({{ site.baseurl }}/_image/Altenburg/ABG-Marktplatz.jpg)
 
 Located in central Germany, Altenburg is a charming city with over 1,050 years of history, weaving together the glory of the Holy Roman Empire with rich folk culture. As early as AD 976, the city's name appeared in documents during the reign of Holy Roman Emperor Otto II, foreshadowing its remarkable historical status.
