@@ -2,7 +2,7 @@
 layout: post
 show_map: false
 title: "パーダーボルンの歴史と観光スポットの紹介"
-state_name: "ノルトライン＝ヴェストファーレン州)"
+state_name: "ノルトライン＝ヴェストファーレン州"
 state_id: "nordrhein-westfalen" 
 slug: paderborn
 lang: jp
