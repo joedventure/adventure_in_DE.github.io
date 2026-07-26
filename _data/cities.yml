@@ -558,4 +558,9 @@ thueringen:
     lat: 50.9787
     lng: 11.0328
     url: "/thueringen/erfurt/"
-    
+  - zh_name: "阿爾滕堡 (Altenburg)"
+    en_name: "Altenburg"
+    jp_name: "アルテンブルク (Altenburg)"
+    lat: 50.9975
+    lng: 12.4436
+    url: "/thueringen/altenburg/"
