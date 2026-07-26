@@ -7,8 +7,7 @@ lang: jp
 permalink: /jp/berlin_ddr/
 ---
 
-JP version
-
+ベルリンには見どころが本当に尽きません。古い城壁や聖堂だけでなく、東ドイツ時代の歴史の記憶も色濃く残っています。これらの面影が完全に消え去ってしまう前に、しっかり目に焼き付けておきたいところです。
 
 ## ベルリン・カールスホルスト博物館 (Museum Berlin-Karlshorst)
 ![Museum Berlin-Karlshorst]({{ site.baseurl }}/_image/Berlin_DDR/Museum_Karlshorst.jpg)
