@@ -7,8 +7,7 @@ lang: en
 permalink: /en/berlin_ddr/
 ---
 
-EN version
-
+There is just so much to see in Berlin. Beyond its historical walls and magnificent churches, the city holds deep memories of the East German era. I’m taking the time to explore these fading traces before they vanish for good.
 
 ## Museum Berlin-Karlshorst
 ![Museum Berlin-Karlshorst]({{ site.baseurl }}/_image/Berlin_DDR/Museum_Karlshorst.jpg)
